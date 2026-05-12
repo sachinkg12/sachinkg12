@@ -146,5 +146,5 @@ Engineering high-reliability distributed systems at global scale. Backend platfo
 ---
 
 <p align="center">
-  <i>Open to conversations on distributed systems, platform engineering, and technical leadership.</i><br/>
+  <i>Open to conversations on distributed systems, platform engineering, and AI.</i><br/>
 </p>

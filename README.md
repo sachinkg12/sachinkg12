@@ -143,52 +143,6 @@ Engineering high-reliability distributed systems at global scale. Backend platfo
   </p>
 </details>
 
-<details open> 
-  <summary><h2>⭐ Impact & Recognition</h2></summary>
-
-  <table>
-    <tr>
-      <td align="center" width="20%">
-        <h3>🎤</h3>
-        <b>Speaker</b><br/>
-        <sub>PlatformCon<br/>WeAreDevelopers</sub>
-      </td>
-      <td align="center" width="20%">
-        <h3>⚖️</h3>
-        <b>Judge</b><br/>
-        <sub>6 hackathons<br/>& demo days</sub>
-      </td>
-      <td align="center" width="20%">
-        <h3>📝</h3>
-        <b>Peer Reviewer</b><br/>
-        <sub>ACL · LT-EDI<br/>SASIGD 2026</sub>
-      </td>
-      <td align="center" width="20%">
-        <h3>🎯</h3>
-        <b>Mentor</b><br/>
-        <sub>Weber State<br/>Opportunity Hack</sub>
-      </td>
-      <td align="center" width="20%">
-        <h3>🏆</h3>
-        <b>Awards</b><br/>
-        <sub>Spot Award<br/>Star Award</sub>
-      </td>
-    </tr>
-  </table>
-</details>
-
-<details> 
-  <summary><h2>📊 GitHub Stats</h2></summary>
-
-  <h3>🔥 Streak Stats</h3>
-
-  <p>
-    <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-      <img alt="Sachin's streak" src="https://streak-stats.demolab.com?user=sachinkg12&theme=dark&hide_border=true&background=1a1b27&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
-    </a>
-  </p>
-</details>
-
 ---
 
 <p align="center">

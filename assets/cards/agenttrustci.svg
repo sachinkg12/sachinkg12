@@ -1,0 +1,27 @@
+<svg width="620" height="200" viewBox="0 0 620 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AgentTrustCI — policy, grounding and trajectory tests for Java LLM agents">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="620" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c1a2e"/><stop offset="1" stop-color="#0a1626"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="618" height="198" rx="16" fill="url(#s)" stroke="#1d3a5f"/>
+  <rect x="1" y="1" width="6" height="198" rx="3" fill="#ffcf6b"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <!-- icon: beaker -->
+    <rect x="34" y="30" width="46" height="46" rx="12" fill="#ffcf6b" fill-opacity="0.12" stroke="#ffcf6b" stroke-opacity="0.4"/>
+    <path d="M53 38 v10 l-9 15 a3 3 0 0 0 2.6 4.5 h18.8 a3 3 0 0 0 2.6 -4.5 l-9 -15 v-10" fill="none" stroke="#ffcf6b" stroke-width="2.6" stroke-linejoin="round"/>
+    <line x1="50" y1="38" x2="64" y2="38" stroke="#ffcf6b" stroke-width="2.6" stroke-linecap="round"/>
+    <circle cx="57" cy="61" r="2.4" fill="#ffcf6b"/>
+    <text x="96" y="52" font-size="26" font-weight="700" fill="#e8f1ff">AgentTrustCI</text>
+    <text x="96" y="74" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12.5" fill="#ffcf6b">agent behavior tests, in JUnit &amp; CI</text>
+    <text x="34" y="112" font-size="15" fill="#9fb6d1">Policy, grounding, and trajectory checks for Java LLM</text>
+    <text x="34" y="134" font-size="15" fill="#9fb6d1">agents — tested in CI alongside your app tests.</text>
+  </g>
+  <g font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12">
+    <rect x="34" y="156" width="112" height="26" rx="13" fill="#10233f" stroke="#1d3a5f"/>
+    <text x="49" y="173" fill="#c7d6ea">Java · JUnit</text>
+    <rect x="156" y="156" width="126" height="26" rx="13" fill="#2a2113" stroke="#5a4a21"/>
+    <circle cx="172" cy="169" r="4" fill="#ffcf6b"/>
+    <text x="184" y="173" fill="#f0cd85">experimental</text>
+  </g>
+</svg>

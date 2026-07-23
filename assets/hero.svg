@@ -1,0 +1,72 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sachin Gupta — building trust into software and AI systems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08121f"/>
+      <stop offset="1" stop-color="#0a1a30"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.7">
+      <stop offset="0" stop-color="#63e6ff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#63e6ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#63e6ff"/>
+      <stop offset="0.5" stop-color="#82f1c3"/>
+      <stop offset="1" stop-color="#b894ff"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#1d3a5f" fill-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="298" rx="20" fill="url(#bg)" stroke="#1d3a5f"/>
+  <rect x="1" y="1" width="1198" height="298" rx="20" fill="url(#dots)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="20" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- network motif (distributed systems + AI) -->
+  <g stroke="#2a507e" stroke-width="1.4" opacity="0.9">
+    <line x1="905" y1="92" x2="1010" y2="70"/>
+    <line x1="905" y1="92" x2="985" y2="160"/>
+    <line x1="1010" y1="70" x2="1105" y2="120"/>
+    <line x1="985" y1="160" x2="1105" y2="120"/>
+    <line x1="985" y1="160" x2="1030" y2="228"/>
+    <line x1="1105" y1="120" x2="1140" y2="205"/>
+    <line x1="1030" y1="228" x2="1140" y2="205"/>
+    <line x1="905" y1="92" x2="860" y2="180"/>
+    <line x1="860" y1="180" x2="985" y2="160"/>
+  </g>
+  <g>
+    <circle cx="905" cy="92" r="6.5" fill="#63e6ff"/>
+    <circle cx="1010" cy="70" r="5" fill="#8ba3c2"/>
+    <circle cx="1105" cy="120" r="7" fill="#b894ff"/>
+    <circle cx="985" cy="160" r="8.5" fill="#82f1c3"/>
+    <circle cx="1030" cy="228" r="5" fill="#8ba3c2"/>
+    <circle cx="1140" cy="205" r="5.5" fill="#63e6ff"/>
+    <circle cx="860" cy="180" r="5" fill="#8ba3c2"/>
+    <circle cx="985" cy="160" r="8.5" fill="none" stroke="#82f1c3" stroke-opacity="0.6">
+      <animate attributeName="r" values="8.5;16;8.5" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1105" cy="120" r="7" fill="none" stroke="#b894ff" stroke-opacity="0.6">
+      <animate attributeName="r" values="7;14;7" dur="4.4s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="4.4s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- text block -->
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <text x="64" y="92" font-size="20" letter-spacing="6" fill="#63e6ff" font-weight="600">S A C H I N   G U P T A</text>
+    <text x="62" y="158" font-size="46" fill="#e8f1ff" font-weight="700">Building trust into software</text>
+    <text x="62" y="212" font-size="46" fill="#e8f1ff" font-weight="700">and AI systems</text>
+    <text x="64" y="252" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="15.5" fill="#8ba3c2">backend  ·  distributed systems  ·  open source  ·  AI reliability</text>
+  </g>
+
+  <!-- operational chip -->
+  <g transform="translate(64,268)">
+    <rect x="0" y="-2" width="228" height="26" rx="13" fill="#0e2033" stroke="#1d3a5f"/>
+    <circle cx="18" cy="11" r="4.5" fill="#4ade80">
+      <animate attributeName="fill-opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="32" y="15" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12.5" fill="#9fb6d1" letter-spacing="0.5">all systems operational</text>
+  </g>
+</svg>

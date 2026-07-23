@@ -1,0 +1,52 @@
+name: Refresh profile signals
+
+# Regenerates assets/live.svg from the GitHub API and commits it only when the
+# numbers actually change. Runs daily, on manual dispatch, and whenever the
+# builder script itself changes.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_profile.py"
+      - ".github/workflows/refresh-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate live telemetry panel
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_profile.py
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain assets/live.svg)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/live.svg
+            git commit -m "chore: refresh live profile signals"
+            git push
+            echo "Updated live.svg and pushed."
+          else
+            echo "No change in live signals; nothing to commit."
+          fi

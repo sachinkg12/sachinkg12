@@ -1,150 +1,216 @@
-<h1 align="center">Sachin Gupta</h1>
-
 <p align="center">
-  <b>Staff Software Engineer · 15+ years · Distributed Systems</b>
+  <img src="./assets/hero.png" width="100%" alt="Sachin Gupta — photographer, engineer and teacher: build, teach, explore" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&multiline=true&width=550&height=60&lines=Building+high-reliability+systems+at+global+scale;Speaker+%C2%B7+Judge+%C2%B7+Peer+Reviewer+%C2%B7+Open+Source+Builder" alt="Typing SVG" />
-  </a>
+  <a href="https://www.guptasachinn.com"><img src="https://img.shields.io/badge/EXPLORE-WRITING%20%2B%20VISUALIZERS-61DAFB?style=for-the-badge&labelColor=07111f" alt="Website" /></a>
+  <a href="https://www.linkedin.com/in/guptasachin1/"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-8DFFCF?style=for-the-badge&labelColor=07111f" alt="LinkedIn" /></a>
+  <a href="https://medium.com/@sachinkg12"><img src="https://img.shields.io/badge/READ-MEDIUM-B894FF?style=for-the-badge&labelColor=07111f" alt="Medium" /></a>
+  <a href="https://orcid.org/0009-0009-7422-4967"><img src="https://img.shields.io/badge/RESEARCH-ORCID-A6CE39?style=for-the-badge&labelColor=07111f" alt="ORCID" /></a>
 </p>
+
+<div align="center">
+
+### Backend engineer building AI infrastructure at production scale
+
+I build open source tools that make complex software and AI systems  
+**observable, explainable and safer to operate.**
+
+`15+ years in backend systems`　`open source`　`AI reliability`　`speaker`　`mentor`
+
+</div>
+
+<br />
+
+```yaml
+profile_runtime:
+  name: Sachin Gupta
+  location: San Jose, California
+  mission: Make complex systems easier to understand and trust
+  operating_mode: Human led, AI accelerated
+  current_focus:
+    - Developer tools for JVM and distributed systems
+    - Guardrails, evaluation and evidence for AI agents
+    - Practical engineering education
+  side_quests:
+    - Travel with family
+    - Photograph places better than I remember to organize them
+    - Find vegetarian food before the production incident starts
+```
+
+> [!NOTE]
+> **My engineering bias:** intelligence is useful, but evidence is deployable.
+
+## The trust stack I am building
+
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/sachinkg12/heaplens">
+<img src="./assets/cards/heaplens.svg" width="100%" alt="HeapLens — heap-dump analysis inside VS Code" />
+</a>
+</td>
+<td width="50%">
+<a href="https://github.com/sachinkg12/toolcontractgate">
+<img src="./assets/cards/toolcontractgate.svg" width="100%" alt="ToolContractGate — deterministic policy gate for agent tool calls" />
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/sachinkg12/SlideSherlock">
+<img src="./assets/cards/slidesherlock.svg" width="100%" alt="SlideSherlock — evidence-grounded narrated video from slides" />
+</a>
+</td>
+<td width="50%">
+<a href="https://github.com/sachinkg12/agenttrustci">
+<img src="./assets/cards/agenttrustci.svg" width="100%" alt="AgentTrustCI — policy, grounding and trajectory tests for Java LLM agents" />
+</a>
+</td>
+</tr>
+</table>
 
 <p align="center">
-  <a href="https://guptasachinn.com"><img src="https://img.shields.io/badge/Portfolio-guptasachinn.com-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>&#8287;
-  <a href="https://www.linkedin.com/in/guptasachin1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&#8287;
-  <a href="https://medium.com/@sachinkg12"><img src="https://img.shields.io/badge/Medium-000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>&#8287;
-  <a href="https://orcid.org/0009-0009-7422-4967"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>&#8287;
-  <a href="https://openreview.net/profile?id=%7ESachin_Gupta3"><img src="https://img.shields.io/badge/OpenReview-b31b1b?style=for-the-badge" alt="OpenReview"/></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=guptasachinn.heaplens"><img src="https://img.shields.io/visual-studio-marketplace/i/guptasachinn.heaplens?style=for-the-badge&label=HEAPLENS%20INSTALLS&labelColor=0a1522&color=63e6ff" alt="HeapLens VS Code installs" /></a>
+  <a href="https://open-vsx.org/extension/guptasachinn/heaplens"><img src="https://img.shields.io/open-vsx/dt/guptasachinn/heaplens?style=for-the-badge&label=OPEN%20VSX%20DOWNLOADS&labelColor=0a1522&color=82f1c3" alt="HeapLens Open VSX downloads" /></a>
+  <a href="https://github.com/sachinkg12/heaplens/releases"><img src="https://img.shields.io/github/v/release/sachinkg12/heaplens?style=for-the-badge&label=LATEST%20RELEASE&labelColor=0a1522&color=b894ff" alt="HeapLens latest release" /></a>
 </p>
+
+## The idea behind the projects
 
 <p align="center">
-  <a href="https://github.com/sachinkg12?tab=followers"><img alt="followers" src="https://img.shields.io/github/followers/sachinkg12?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=sachinkg12&style=for-the-badge&color=1a1b27&label=VIEWS" alt="Profile views"/>
+  <img src="./assets/thesis.svg" width="100%" alt="Complexity to visibility to evidence to guardrails to trust" />
 </p>
 
-<br/>
+The projects look different, but they follow the same pattern:
 
-Engineering high-reliability distributed systems at global scale. Backend platform engineer with 15+ years building large-scale billing and financial systems. I build, speak, judge, review, and mentor — all in my personal capacity. Based in San Jose, CA.
+* **HeapLens** makes runtime memory behavior visible.
+* **SlideSherlock** connects generated narration to source evidence.
+* **ToolContractGate** constrains what an agent is allowed to call.
+* **AgentTrustCI** tests whether agent behavior matches policy and grounding expectations.
 
-<details open> 
-  <summary><h2>🚀 Featured Projects</h2></summary>
+The goal is not to put AI everywhere. The goal is to make powerful systems **understandable enough to operate responsibly**.
 
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        <h3><a href="https://github.com/sachinkg12/heaplens">🔬 HeapLens</a></h3>
-        <p>VS Code extension for Java heap dump analysis — Rust-powered parser, 10 D3.js visualizations, HeapQL & multi-LLM AI integration</p>
-        <p>
-          <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white"/>
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-          <img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white"/>
-          <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
-        </p>
-      </td>
-      <td width="50%" valign="top">
-        <h3><a href="https://github.com/sachinkg12/yukti">⚡ Yukti</a></h3>
-        <p>Credit card portfolio optimizer using mixed-integer linear programming — 70 cards, 6 categories, solver-certified optimal with explainability</p>
-        <p>
-          <img src="https://img.shields.io/badge/Java_21-007396?style=flat-square&logo=openjdk&logoColor=white"/>
-          <img src="https://img.shields.io/badge/OR--Tools-4285F4?style=flat-square&logo=google&logoColor=white"/>
-          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top">
-        <h3><a href="https://github.com/sachinkg12/slidesherlock">🎬 SlideSherlock</a></h3>
-        <p>Evidence-grounded pipeline converting PPTX to narrated video — SHA-256 evidence index, dual-provenance knowledge graph, zero hallucination</p>
-        <p>
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-          <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-          <img src="https://img.shields.io/badge/GPT--4o-412991?style=flat-square&logo=openai&logoColor=white"/>
-        </p>
-      </td>
-      <td width="50%" valign="top">
-        <h3><a href="https://github.com/sachinkg12/hazardprep">🌍 HazardPrep</a></h3>
-        <p>Multi-hazard risk assessment for any US address — aggregates FEMA, USGS, NOAA & NIFC data into composite risk scores</p>
-        <p>
-          <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-          <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top">
-        <h3><a href="https://github.com/sachinkg12/hazardcast">🌩️ HazardCast</a></h3>
-        <p>AI disaster prediction engine — forecasts FEMA declarations 90 days ahead with 0.90 ROC-AUC across 42 features from 7 agencies</p>
-        <p>
-          <img src="https://img.shields.io/badge/XGBoost-189FDD?style=flat-square"/>
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-          <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-        </p>
-      </td>
-      <td width="50%" valign="top">
-        <h3><a href="https://huggingface.co/datasets/sachinkg12/us-county-hazard-features">📊 US County Hazard Features</a></h3>
-        <p>Public ML-ready dataset — 1M+ county-month observations across 3,222 US counties with 42 features from 7 federal agencies</p>
-        <p>
-          <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=000"/>
-          <img src="https://img.shields.io/badge/Parquet-50ABF1?style=flat-square"/>
-          <img src="https://img.shields.io/badge/ML-5A2D82?style=flat-square"/>
-        </p>
-      </td>
-    </tr>
-  </table>
+## Live open source telemetry
 
-  <p>
-    <a href="https://github.com/sachinkg12?tab=repositories&sort=stargazers"><img alt="All Repos" src="https://img.shields.io/badge/All%20Repos%20%E2%86%92-1a1b27?style=for-the-badge&logo=github&logoColor=white"/></a>
-  </p>
+<p align="center">
+  <img src="./assets/live.svg" width="100%" alt="Live open source signals updated by GitHub Actions" />
+</p>
+
+This panel is generated from the GitHub API by the workflow in this profile repository. It updates the public repository count and total stars across my open source projects.
+
+<details>
+<summary><b>Why automate the profile?</b></summary>
+<br />
+
+Because a 2026 profile should not be a résumé frozen in Markdown.
+
+The automation is intentionally small and inspectable. It uses GitHub's public API, generates one local SVG and commits only when the numbers change. No analytics pixel, no private data and no mystery profile service.
+
 </details>
 
-<details open> 
-  <summary><h2>🛠️ Tech Stack</h2></summary>
+## I build in public across four loops
 
-  <h3>👨‍💻 Languages</h3>
+<table>
+<tr>
+<td width="25%" valign="top">
+<h3>01 / Build</h3>
+<p>Developer tools, experiments, datasets and reference implementations that people can run.</p>
+</td>
+<td width="25%" valign="top">
+<h3>02 / Explain</h3>
+<p>Field guides, visualizers and talks that turn difficult engineering ideas into usable mental models.</p>
+</td>
+<td width="25%" valign="top">
+<h3>03 / Review</h3>
+<p>Research reviewing, artifact evaluation and honest technical feedback for other builders.</p>
+</td>
+<td width="25%" valign="top">
+<h3>04 / Connect</h3>
+<p>Mentoring, hackathon judging, community conversations and contributor support.</p>
+</td>
+</tr>
+</table>
 
-  <p>
-    <img alt="Java" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white">
-    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-    <img alt="Rust" src="https://img.shields.io/badge/Rust-000?style=for-the-badge&logo=rust&logoColor=white">
-    <img alt="SQL" src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
-  </p>
+### Selected signals from the field
 
-  <h3>🧰 Frameworks & Backend</h3>
+| Signal | What you will find |
+|---|---|
+| **Engineering writing + visualizers** | Practical field guides and interactive explainers on [guptasachinn.com](https://www.guptasachinn.com/) |
+| **RAG field guide** | A practical series covering retrieval, context, abstention, citations and vectorless RAG |
+| **Inference series** | Visual explanations of speculative decoding and DSpark |
+| **ReviewDebt talk** | [How AI generated code changes the economics of code review](https://www.youtube.com/watch?v=TJPInBjhE4Q) |
+| **Open source lab** | Tools spanning JVM memory, AI agent safety, evidence grounded media and CI evaluation |
 
-  <p>
-    <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
-    <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white">
-    <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-    <img alt="Microservices" src="https://img.shields.io/badge/Microservices-1a1b27?style=for-the-badge">
-  </p>
+## Beyond the terminal
 
-  <h3>🗄️ Infrastructure & Data</h3>
+<table>
+<tr>
+<td width="58%" valign="top">
+<h3>Travel is my second distributed system</h3>
+<p>There are unreliable networks, partial information, regional dependencies, strict latency budgets and at least one stakeholder asking, “Are we there yet?”</p>
+<p>I travel with my family and photograph landscapes, cities and the moments between destinations. Photography has trained the same instinct I use in engineering: slow down, observe carefully and change the frame before changing the answer.</p>
+<p><b>Current travel protocol</b></p>
+<pre>
+plan ambitiously
+cache snacks locally
+expect partial failure
+preserve the evidence
+take the photo
+</pre>
+</td>
+<td width="42%" valign="top">
+<pre>
+CAMERA STATUS
+─────────────
+battery       34%
+storage       somehow full
+golden hour   18:42
+trip backlog  unbounded
+best photo    still not sorted
+</pre>
+<p><i>A good itinerary, like a good distributed system, assumes something will fail.</i></p>
+</td>
+</tr>
+</table>
 
-  <p>
-    <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
-    <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-    <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
-    <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
-    <img alt="CI/CD" src="https://img.shields.io/badge/CI%2FCD-1a1b27?style=for-the-badge&logo=githubactions&logoColor=white">
-  </p>
+## Start here
 
-  <h3>📊 Observability & AI</h3>
+<table>
+<tr>
+<td align="center" width="25%">
+<a href="https://github.com/sachinkg12/heaplens/issues"><b>Use a tool</b></a><br />
+<sub>Try it on a real problem</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Asachinkg12"><b>Report a rough edge</b></a><br />
+<sub>Honest feedback beats vanity metrics</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Asachinkg12+label%3A%22good+first+issue%22"><b>Make a first contribution</b></a><br />
+<sub>Small pull requests are welcome</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://www.guptasachinn.com/"><b>Learn with me</b></a><br />
+<sub>Read, visualize and question</sub>
+</td>
+</tr>
+</table>
 
-  <p>
-    <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-000?style=for-the-badge&logo=opentelemetry&logoColor=white">
-    <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white">
-    <img alt="Grafana" src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white">
-    <img alt="Agentic AI" src="https://img.shields.io/badge/Agentic_AI-5A2D82?style=for-the-badge">
-    <img alt="RAG" src="https://img.shields.io/badge/RAG-5A2D82?style=for-the-badge">
-  </p>
-</details>
+## Current operating state
 
----
+```diff
++ building tools that make AI behavior easier to verify
++ publishing engineering explanations with working visualizers
++ looking for users, contributors and uncomfortable edge cases
++ planning the next trip before sorting the previous trip's photographs
+- pretending that an LLM response is evidence
+```
 
-<p align="center">
-  <i>Open to conversations on distributed systems, platform engineering, and AI.</i><br/>
-</p>
+<div align="center">
+
+### Build carefully. Share openly. Keep exploring.
+
+<sub>All views are my own and shared in a personal capacity.</sub>
+
+</div>

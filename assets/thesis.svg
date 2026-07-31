@@ -1,19 +1,19 @@
 <svg width="1200" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The pattern behind every project: complexity to visibility to evidence to guardrails to trust">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="250" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#08121f"/><stop offset="1" stop-color="#0a1a30"/>
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fc"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#63e6ff"/><stop offset="0.5" stop-color="#82f1c3"/><stop offset="1" stop-color="#b894ff"/>
+      <stop offset="0" stop-color="#0a93bb"/><stop offset="0.5" stop-color="#10a152"/><stop offset="1" stop-color="#7c3aed"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="1198" height="248" rx="20" fill="url(#bg)" stroke="#1d3a5f"/>
+  <rect x="1" y="1" width="1198" height="248" rx="20" fill="url(#bg)" stroke="#cdd6e0"/>
 
-  <text x="50" y="42" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="13" letter-spacing="2" fill="#8ba3c2">THE PATTERN BEHIND EVERY PROJECT</text>
+  <text x="50" y="42" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="13" letter-spacing="2" fill="#6a7686">THE PATTERN BEHIND EVERY PROJECT</text>
   <rect x="50" y="52" width="150" height="3" rx="1.5" fill="url(#accent)"/>
 
   <!-- connectors -->
-  <g fill="#3a6191">
+  <g fill="#9aa7b8">
     <path d="M236 150 l14 0 l0 -5 l10 5 l-10 5 l0 -5 Z"/>
     <path d="M466 150 l14 0 l0 -5 l10 5 l-10 5 l0 -5 Z"/>
     <path d="M696 150 l14 0 l0 -5 l10 5 l-10 5 l0 -5 Z"/>
@@ -24,44 +24,44 @@
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
     <!-- 01 Complexity -->
     <g>
-      <rect x="50" y="86" width="186" height="128" rx="14" fill="#0c1a2e" stroke="#25456d"/>
-      <rect x="50" y="86" width="186" height="4" rx="2" fill="#8ba3c2"/>
-      <text x="66" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#55719a">01</text>
-      <text x="66" y="150" font-size="21" font-weight="700" fill="#c7d6ea">Complexity</text>
-      <text x="66" y="180" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="11.5" fill="#8ba3c2">powerful systems,</text>
-      <text x="66" y="196" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="11.5" fill="#8ba3c2">hard to operate</text>
+      <rect x="50" y="86" width="186" height="128" rx="14" fill="#ffffff" stroke="#d7dee8"/>
+      <rect x="50" y="86" width="186" height="4" rx="2" fill="#6a7686"/>
+      <text x="66" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#8b95a3">01</text>
+      <text x="66" y="150" font-size="21" font-weight="700" fill="#33404f">Complexity</text>
+      <text x="66" y="180" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="11.5" fill="#6a7686">powerful systems,</text>
+      <text x="66" y="196" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="11.5" fill="#6a7686">hard to operate</text>
     </g>
     <!-- 02 Visibility -->
     <g>
-      <rect x="280" y="86" width="186" height="128" rx="14" fill="#0c1a2e" stroke="#25456d"/>
-      <rect x="280" y="86" width="186" height="4" rx="2" fill="#63e6ff"/>
-      <text x="296" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#55719a">02</text>
-      <text x="296" y="150" font-size="21" font-weight="700" fill="#63e6ff">Visibility</text>
-      <text x="296" y="184" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#9fb6d1">HeapLens</text>
+      <rect x="280" y="86" width="186" height="128" rx="14" fill="#ffffff" stroke="#d7dee8"/>
+      <rect x="280" y="86" width="186" height="4" rx="2" fill="#0a93bb"/>
+      <text x="296" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#8b95a3">02</text>
+      <text x="296" y="150" font-size="21" font-weight="700" fill="#0a93bb">Visibility</text>
+      <text x="296" y="184" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#4c5a6b">HeapLens</text>
     </g>
     <!-- 03 Evidence -->
     <g>
-      <rect x="510" y="86" width="186" height="128" rx="14" fill="#0c1a2e" stroke="#25456d"/>
-      <rect x="510" y="86" width="186" height="4" rx="2" fill="#82f1c3"/>
-      <text x="526" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#55719a">03</text>
-      <text x="526" y="150" font-size="21" font-weight="700" fill="#82f1c3">Evidence</text>
-      <text x="526" y="184" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#9fb6d1">SlideSherlock</text>
+      <rect x="510" y="86" width="186" height="128" rx="14" fill="#ffffff" stroke="#d7dee8"/>
+      <rect x="510" y="86" width="186" height="4" rx="2" fill="#10a152"/>
+      <text x="526" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#8b95a3">03</text>
+      <text x="526" y="150" font-size="21" font-weight="700" fill="#10a152">Evidence</text>
+      <text x="526" y="184" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#4c5a6b">SlideSherlock</text>
     </g>
     <!-- 04 Guardrails -->
     <g>
-      <rect x="740" y="86" width="186" height="128" rx="14" fill="#0c1a2e" stroke="#25456d"/>
-      <rect x="740" y="86" width="186" height="4" rx="2" fill="#b894ff"/>
-      <text x="756" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#55719a">04</text>
-      <text x="756" y="150" font-size="21" font-weight="700" fill="#b894ff">Guardrails</text>
-      <text x="756" y="184" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#9fb6d1">ToolContractGate</text>
+      <rect x="740" y="86" width="186" height="128" rx="14" fill="#ffffff" stroke="#d7dee8"/>
+      <rect x="740" y="86" width="186" height="4" rx="2" fill="#7c3aed"/>
+      <text x="756" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#8b95a3">04</text>
+      <text x="756" y="150" font-size="21" font-weight="700" fill="#7c3aed">Guardrails</text>
+      <text x="756" y="184" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#4c5a6b">ToolContractGate</text>
     </g>
     <!-- 05 Trust -->
     <g>
-      <rect x="970" y="86" width="186" height="128" rx="14" fill="#0e2033" stroke="#2f5b8a"/>
+      <rect x="970" y="86" width="186" height="128" rx="14" fill="#f0f4fa" stroke="#b9c6d8"/>
       <rect x="970" y="86" width="186" height="4" rx="2" fill="url(#accent)"/>
-      <text x="986" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#55719a">05</text>
-      <text x="986" y="150" font-size="21" font-weight="700" fill="#e8f1ff">Trust</text>
-      <text x="986" y="184" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#9fb6d1">AgentTrustCI</text>
+      <text x="986" y="118" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#8b95a3">05</text>
+      <text x="986" y="150" font-size="21" font-weight="700" fill="#17202e">Trust</text>
+      <text x="986" y="184" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#4c5a6b">AgentTrustCI</text>
     </g>
   </g>
 </svg>

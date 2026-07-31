@@ -1,29 +1,29 @@
 <svg width="620" height="200" viewBox="0 0 620 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HeapLens — heap-dump analysis inside VS Code">
   <defs>
     <linearGradient id="s" x1="0" y1="0" x2="620" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0c1a2e"/><stop offset="1" stop-color="#0a1626"/>
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fc"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="618" height="198" rx="16" fill="url(#s)" stroke="#1d3a5f"/>
-  <rect x="1" y="1" width="6" height="198" rx="3" fill="#63e6ff"/>
+  <rect x="1" y="1" width="618" height="198" rx="16" fill="url(#s)" stroke="#cdd6e0"/>
+  <rect x="1" y="1" width="6" height="198" rx="3" fill="#0a93bb"/>
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
     <!-- icon: magnifier -->
-    <rect x="34" y="30" width="46" height="46" rx="12" fill="#63e6ff" fill-opacity="0.12" stroke="#63e6ff" stroke-opacity="0.4"/>
-    <circle cx="52" cy="49" r="10" fill="none" stroke="#63e6ff" stroke-width="3"/>
-    <line x1="60" y1="57" x2="68" y2="65" stroke="#63e6ff" stroke-width="3" stroke-linecap="round"/>
-    <text x="96" y="52" font-size="26" font-weight="700" fill="#e8f1ff">HeapLens</text>
-    <text x="96" y="74" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12.5" fill="#63e6ff">Java / Android heap analysis · VS Code</text>
-    <text x="34" y="112" font-size="15" fill="#9fb6d1">Heap-dump analysis inside your editor — interactive views,</text>
-    <text x="34" y="134" font-size="15" fill="#9fb6d1">leak detection, HeapQL, and an AI assistant.</text>
+    <rect x="34" y="30" width="46" height="46" rx="12" fill="#0a93bb" fill-opacity="0.12" stroke="#0a93bb" stroke-opacity="0.4"/>
+    <circle cx="52" cy="49" r="10" fill="none" stroke="#0a93bb" stroke-width="3"/>
+    <line x1="60" y1="57" x2="68" y2="65" stroke="#0a93bb" stroke-width="3" stroke-linecap="round"/>
+    <text x="96" y="52" font-size="26" font-weight="700" fill="#17202e">HeapLens</text>
+    <text x="96" y="74" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12.5" fill="#0a93bb">Java / Android heap analysis · VS Code</text>
+    <text x="34" y="112" font-size="15" fill="#4c5a6b">Heap-dump analysis inside your editor — interactive views,</text>
+    <text x="34" y="134" font-size="15" fill="#4c5a6b">leak detection, HeapQL, and an AI assistant.</text>
   </g>
   <!-- footer chips -->
   <g font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12">
-    <rect x="34" y="156" width="112" height="26" rx="13" fill="#10233f" stroke="#1d3a5f"/>
-    <text x="49" y="173" fill="#c7d6ea">Rust · TS</text>
-    <rect x="156" y="156" width="112" height="26" rx="13" fill="#10233f" stroke="#1d3a5f"/>
-    <text x="171" y="173" fill="#c7d6ea">Apache-2.0</text>
-    <rect x="278" y="156" width="122" height="26" rx="13" fill="#0f2a1e" stroke="#1f5137"/>
-    <circle cx="294" cy="169" r="4" fill="#4ade80"/>
-    <text x="306" y="173" fill="#7fe6a6">operational</text>
+    <rect x="34" y="156" width="112" height="26" rx="13" fill="#eef2f7" stroke="#cdd6e0"/>
+    <text x="49" y="173" fill="#33404f">Rust · TS</text>
+    <rect x="156" y="156" width="112" height="26" rx="13" fill="#eef2f7" stroke="#cdd6e0"/>
+    <text x="171" y="173" fill="#33404f">Apache-2.0</text>
+    <rect x="278" y="156" width="122" height="26" rx="13" fill="#e6f6ec" stroke="#a7e0bd"/>
+    <circle cx="294" cy="169" r="4" fill="#16a34a"/>
+    <text x="306" y="173" fill="#15803d">operational</text>
   </g>
 </svg>

@@ -1,28 +1,28 @@
 <svg width="620" height="200" viewBox="0 0 620 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SlideSherlock — evidence-grounded narrated video from slides">
   <defs>
     <linearGradient id="s" x1="0" y1="0" x2="620" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0c1a2e"/><stop offset="1" stop-color="#0a1626"/>
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fc"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="618" height="198" rx="16" fill="url(#s)" stroke="#1d3a5f"/>
-  <rect x="1" y="1" width="6" height="198" rx="3" fill="#82f1c3"/>
+  <rect x="1" y="1" width="618" height="198" rx="16" fill="url(#s)" stroke="#cdd6e0"/>
+  <rect x="1" y="1" width="6" height="198" rx="3" fill="#10a152"/>
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
     <!-- icon: play / frame -->
-    <rect x="34" y="30" width="46" height="46" rx="12" fill="#82f1c3" fill-opacity="0.12" stroke="#82f1c3" stroke-opacity="0.4"/>
-    <rect x="44" y="40" width="26" height="26" rx="5" fill="none" stroke="#82f1c3" stroke-width="2.6"/>
-    <path d="M53 47 L62 53 L53 59 Z" fill="#82f1c3"/>
-    <text x="96" y="52" font-size="26" font-weight="700" fill="#e8f1ff">SlideSherlock</text>
-    <text x="96" y="74" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12.5" fill="#82f1c3">slides → narrated video · evidence-grounded</text>
-    <text x="34" y="112" font-size="15" fill="#9fb6d1">Turns presentations into narrated video, binding</text>
-    <text x="34" y="134" font-size="15" fill="#9fb6d1">every generated claim to verifiable source evidence.</text>
+    <rect x="34" y="30" width="46" height="46" rx="12" fill="#10a152" fill-opacity="0.12" stroke="#10a152" stroke-opacity="0.4"/>
+    <rect x="44" y="40" width="26" height="26" rx="5" fill="none" stroke="#10a152" stroke-width="2.6"/>
+    <path d="M53 47 L62 53 L53 59 Z" fill="#10a152"/>
+    <text x="96" y="52" font-size="26" font-weight="700" fill="#17202e">SlideSherlock</text>
+    <text x="96" y="74" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12.5" fill="#10a152">slides → narrated video · evidence-grounded</text>
+    <text x="34" y="112" font-size="15" fill="#4c5a6b">Turns presentations into narrated video, binding</text>
+    <text x="34" y="134" font-size="15" fill="#4c5a6b">every generated claim to verifiable source evidence.</text>
   </g>
   <g font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12">
-    <rect x="34" y="156" width="92" height="26" rx="13" fill="#10233f" stroke="#1d3a5f"/>
-    <text x="49" y="173" fill="#c7d6ea">Python</text>
-    <rect x="136" y="156" width="112" height="26" rx="13" fill="#10233f" stroke="#1d3a5f"/>
-    <text x="151" y="173" fill="#c7d6ea">Apache-2.0</text>
-    <rect x="258" y="156" width="122" height="26" rx="13" fill="#0f2a1e" stroke="#1f5137"/>
-    <circle cx="274" cy="169" r="4" fill="#4ade80"/>
-    <text x="286" y="173" fill="#7fe6a6">operational</text>
+    <rect x="34" y="156" width="92" height="26" rx="13" fill="#eef2f7" stroke="#cdd6e0"/>
+    <text x="49" y="173" fill="#33404f">Python</text>
+    <rect x="136" y="156" width="112" height="26" rx="13" fill="#eef2f7" stroke="#cdd6e0"/>
+    <text x="151" y="173" fill="#33404f">Apache-2.0</text>
+    <rect x="258" y="156" width="122" height="26" rx="13" fill="#e6f6ec" stroke="#a7e0bd"/>
+    <circle cx="274" cy="169" r="4" fill="#16a34a"/>
+    <text x="286" y="173" fill="#15803d">operational</text>
   </g>
 </svg>

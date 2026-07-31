@@ -137,8 +137,8 @@ The automation is intentionally small and inspectable. It uses GitHub's public A
 | Signal | What you will find |
 |---|---|
 | **Engineering writing + visualizers** | Practical field guides and interactive explainers on [guptasachinn.com](https://www.guptasachinn.com/) |
-| **RAG field guide** | A practical series covering retrieval, context, abstention, citations and vectorless RAG |
-| **Inference series** | Visual explanations of speculative decoding and DSpark |
+| **[RAG field guide](https://www.guptasachinn.com/tags/rag)** | A practical series covering retrieval, context, abstention, citations and vectorless RAG |
+| **[Inference series](https://www.guptasachinn.com/writing/dspark)** | Visual explanations of speculative decoding and DSpark |
 | **ReviewDebt talk** | [How AI generated code changes the economics of code review](https://www.youtube.com/watch?v=TJPInBjhE4Q) |
 | **Open source lab** | Tools spanning JVM memory, AI agent safety, evidence grounded media and CI evaluation |
 

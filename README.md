@@ -171,8 +171,6 @@ Runtime control and safe rollout for autonomous AI agents in production.</p>
   <img src="./assets/collaborations.png" width="100%" alt="Organizations Sachin has collaborated with — conferences spoken at, program committees reviewed for, and communities mentored and recognized by" />
 </p>
 
-<p align="center"><sub>Speaking · peer review &amp; program committees · mentoring — <a href="https://www.guptasachinn.com/">full activity log</a></sub></p>
-
 ## Beyond the terminal
 
 <table>

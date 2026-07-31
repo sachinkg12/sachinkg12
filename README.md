@@ -71,12 +71,6 @@ profile_runtime:
 </table>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=guptasachinn.heaplens"><img src="https://img.shields.io/visual-studio-marketplace/i/guptasachinn.heaplens?style=for-the-badge&label=HEAPLENS%20INSTALLS&labelColor=0a1522&color=63e6ff" alt="HeapLens VS Code installs" /></a>
-  <a href="https://open-vsx.org/extension/guptasachinn/heaplens"><img src="https://img.shields.io/open-vsx/dt/guptasachinn/heaplens?style=for-the-badge&label=OPEN%20VSX%20DOWNLOADS&labelColor=0a1522&color=82f1c3" alt="HeapLens Open VSX downloads" /></a>
-  <a href="https://github.com/sachinkg12/heaplens/releases"><img src="https://img.shields.io/github/v/release/sachinkg12/heaplens?style=for-the-badge&label=LATEST%20RELEASE&labelColor=0a1522&color=b894ff" alt="HeapLens latest release" /></a>
-</p>
-
-<p align="center">
   <img src="./assets/heaplens-stats.svg" width="100%" alt="HeapLens in the wild — 10,180 downloads across 57 countries and 363 cities, with over 25,000 usage events" />
 </p>
 

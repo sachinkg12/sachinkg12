@@ -36,7 +36,6 @@ profile_runtime:
   side_quests:
     - Travel with family
     - Photograph places better than I remember to organize them
-    - Find vegetarian food before the production incident starts
 ```
 
 > [!NOTE]

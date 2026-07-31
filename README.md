@@ -76,6 +76,10 @@ profile_runtime:
   <a href="https://github.com/sachinkg12/heaplens/releases"><img src="https://img.shields.io/github/v/release/sachinkg12/heaplens?style=for-the-badge&label=LATEST%20RELEASE&labelColor=0a1522&color=b894ff" alt="HeapLens latest release" /></a>
 </p>
 
+<p align="center">
+  <img src="./assets/heaplens-stats.svg" width="100%" alt="HeapLens in the wild — 589 developers reached across 57 countries and 363 cities, with 1,733 heap analyses completed" />
+</p>
+
 ## The idea behind the projects
 
 <p align="center">

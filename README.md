@@ -77,7 +77,7 @@ profile_runtime:
 </p>
 
 <p align="center">
-  <img src="./assets/heaplens-stats.svg" width="100%" alt="HeapLens in the wild — 589 developers reached across 57 countries and 363 cities, with 1,733 heap analyses completed" />
+  <img src="./assets/heaplens-stats.svg" width="100%" alt="HeapLens in the wild — 7,780 VS Code downloads across 57 countries and 363 cities, with 1,733 heap analyses completed" />
 </p>
 
 ## The idea behind the projects

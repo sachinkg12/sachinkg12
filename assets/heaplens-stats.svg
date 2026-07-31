@@ -1,4 +1,4 @@
-<svg width="1200" height="200" viewBox="0 0 1200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HeapLens adoption: 589 developers across 57 countries and 363 cities, 1,733 heap analyses completed">
+<svg width="1200" height="200" viewBox="0 0 1200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HeapLens adoption: 7,780 VS Code downloads across 57 countries and 363 cities, 1,733 heap analyses completed">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="200" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#08121f"/><stop offset="1" stop-color="#0a1a30"/>
@@ -19,8 +19,8 @@
     <g>
       <rect x="64" y="78" width="250" height="98" rx="14" fill="#0c1a2e" stroke="#25456d"/>
       <rect x="64" y="78" width="250" height="4" rx="2" fill="#63e6ff"/>
-      <text x="189" y="132" text-anchor="middle" font-size="34" font-weight="700" fill="#63e6ff">589</text>
-      <text x="189" y="160" text-anchor="middle" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#8ba3c2">developers reached</text>
+      <text x="189" y="132" text-anchor="middle" font-size="34" font-weight="700" fill="#63e6ff">7,780</text>
+      <text x="189" y="160" text-anchor="middle" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#8ba3c2">VS Code downloads</text>
     </g>
     <g>
       <rect x="338" y="78" width="250" height="98" rx="14" fill="#0c1a2e" stroke="#25456d"/>

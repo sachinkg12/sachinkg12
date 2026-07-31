@@ -7,6 +7,7 @@
   <a href="https://www.linkedin.com/in/guptasachin1/"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-8DFFCF?style=for-the-badge&labelColor=07111f" alt="LinkedIn" /></a>
   <a href="https://medium.com/@sachinkg12"><img src="https://img.shields.io/badge/READ-MEDIUM-B894FF?style=for-the-badge&labelColor=07111f" alt="Medium" /></a>
   <a href="https://orcid.org/0009-0009-7422-4967"><img src="https://img.shields.io/badge/RESEARCH-ORCID-A6CE39?style=for-the-badge&labelColor=07111f" alt="ORCID" /></a>
+  <a href="https://sessionize.com/sachin-gupta"><img src="https://img.shields.io/badge/SPEAK-SESSIONIZE-1AB394?style=for-the-badge&labelColor=07111f" alt="Sessionize speaker profile" /></a>
 </p>
 
 <div align="center">
@@ -163,6 +164,14 @@ Runtime control and safe rollout for autonomous AI agents in production.</p>
 </td>
 </tr>
 </table>
+
+## Organizations I've collaborated with
+
+<p align="center">
+  <img src="./assets/collaborations.png" width="100%" alt="Organizations Sachin has collaborated with — conferences spoken at, program committees reviewed for, and communities mentored and recognized by" />
+</p>
+
+<p align="center"><sub>Speaking · peer review &amp; program committees · mentoring — <a href="https://www.guptasachinn.com/">full activity log</a></sub></p>
 
 ## Beyond the terminal
 

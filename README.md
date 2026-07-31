@@ -139,8 +139,30 @@ The automation is intentionally small and inspectable. It uses GitHub's public A
 | **Engineering writing + visualizers** | Practical field guides and interactive explainers on [guptasachinn.com](https://www.guptasachinn.com/) |
 | **[RAG field guide](https://www.guptasachinn.com/tags/rag)** | A practical series covering retrieval, context, abstention, citations and vectorless RAG |
 | **[Inference series](https://www.guptasachinn.com/writing/dspark)** | Visual explanations of speculative decoding and DSpark |
-| **ReviewDebt talk** | [How AI generated code changes the economics of code review](https://www.youtube.com/watch?v=TJPInBjhE4Q) |
 | **Open source lab** | Tools spanning JVM memory, AI agent safety, evidence grounded media and CI evaluation |
+
+## Talks that became tools
+
+I share practical engineering patterns from production — usually alongside open-source implementations you can inspect, run, and challenge.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://www.youtube.com/watch?v=TJPInBjhE4Q">
+<img src="https://img.youtube.com/vi/TJPInBjhE4Q/hqdefault.jpg" alt="ReviewDebt: a practical framework for scoring every pull request" width="100%" />
+</a>
+<p><b>ReviewDebt: scoring every pull request</b><br/>
+A measurable framework for the widening gap between agent-generated code and human-reviewed evidence.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://www.youtube.com/watch?v=zU4EagB311U">
+<img src="https://img.youtube.com/vi/zU4EagB311U/hqdefault.jpg" alt="Agents Need Feature Flags" width="100%" />
+</a>
+<p><b>Agents Need Feature Flags</b><br/>
+Runtime control and safe rollout for autonomous AI agents in production.</p>
+</td>
+</tr>
+</table>
 
 ## Beyond the terminal
 

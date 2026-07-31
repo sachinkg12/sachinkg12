@@ -139,7 +139,7 @@ The automation is intentionally small and inspectable. It uses GitHub's public A
 | **Engineering writing + visualizers** | Practical field guides and interactive explainers on [guptasachinn.com](https://www.guptasachinn.com/) |
 | **[RAG field guide](https://www.guptasachinn.com/tags/rag)** | A practical series covering retrieval, context, abstention, citations and vectorless RAG |
 | **[Inference series](https://www.guptasachinn.com/writing/dspark)** | Visual explanations of speculative decoding and DSpark |
-| **Open source lab** | Tools spanning JVM memory, AI agent safety, evidence grounded media and CI evaluation |
+| **[Open source lab](https://github.com/sachinkg12?tab=repositories&sort=stargazers)** | Tools spanning JVM memory, AI agent safety, evidence grounded media and CI evaluation |
 
 ## Talks that became tools
 

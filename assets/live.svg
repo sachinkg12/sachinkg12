@@ -13,7 +13,7 @@
     <animate attributeName="fill-opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
   </circle>
   <text x="80" y="47" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="13" letter-spacing="2" fill="#c7d6ea">LIVE OPEN SOURCE TELEMETRY</text>
-  <text x="1160" y="47" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#55719a">updated 2026-08-04 UTC</text>
+  <text x="1160" y="47" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#55719a">updated 2026-08-05 UTC</text>
 
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
     <g>

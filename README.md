@@ -71,7 +71,11 @@ profile_runtime:
 </table>
 
 <p align="center">
-  <img src="./assets/heaplens-stats.svg" width="100%" alt="HeapLens in the wild — 10,180 downloads across 57 countries and 363 cities, with over 25,000 usage events" />
+  <img src="./assets/heaplens-stats.svg" width="100%" alt="HeapLens in the wild — 10,521 downloads across 61 countries and 378 cities, with over 26,000 usage events" />
+</p>
+
+<p align="center">
+  <img src="./assets/heaplens-map.svg" width="78%" alt="World map of HeapLens active usage across 61 countries" />
 </p>
 
 ## The idea behind the projects

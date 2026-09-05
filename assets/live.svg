@@ -13,13 +13,13 @@
     <animate attributeName="fill-opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
   </circle>
   <text x="80" y="47" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="13" letter-spacing="2" fill="#c7d6ea">LIVE OPEN SOURCE TELEMETRY</text>
-  <text x="1160" y="47" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#55719a">updated 2026-09-04 UTC</text>
+  <text x="1160" y="47" text-anchor="end" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#55719a">updated 2026-09-05 UTC</text>
 
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
     <g>
       <rect x="158" y="78" width="430" height="98" rx="14" fill="#0c1a2e" stroke="#25456d"/>
       <rect x="158" y="78" width="430" height="4" rx="2" fill="#63e6ff"/>
-      <text x="373" y="132" text-anchor="middle" font-size="44" font-weight="700" fill="#63e6ff">31</text>
+      <text x="373" y="132" text-anchor="middle" font-size="44" font-weight="700" fill="#63e6ff">32</text>
       <text x="373" y="160" text-anchor="middle" font-family="'SFMono-Regular',ui-monospace,Consolas,Menlo,monospace" font-size="12" fill="#8ba3c2">public repos</text>
     </g>
     <g>

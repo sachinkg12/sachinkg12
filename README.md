@@ -1,246 +1,145 @@
-<p align="center">
-  <img src="./assets/hero.png" width="100%" alt="Sachin Gupta — photographer, engineer and teacher: build, teach, explore" />
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile/cover-mobile.svg" />
+  <img src="./assets/profile/cover.svg" width="100%" alt="Hello! I’m Sachin Gupta — Reliable platforms. Trustworthy AI. Backend and platform engineer, applied AI researcher and speaker." />
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile/credentials-mobile.svg" />
+  <img src="./assets/profile/credentials.svg" width="100%" alt="15+ years in engineering · 9 accepted research papers · eBay Monetization" />
+</picture>
+
+I'm a **Member of Technical Staff 2 in eBay Monetization**, based in San Jose, California. Over **15+ years**, I've built and modernized systems across financial services, healthcare, and enterprise software — environments where correctness, reliability, and operational judgment matter.
+
+My work spans production engineering, applied research, open-source tools, and technical education. I have **9 accepted papers**, speak at engineering conferences, and publish practical explanations and interactive visualizers on **[guptasachinn.com](https://www.guptasachinn.com/)**.
+
+<p align="left">
+  <a href="https://www.guptasachinn.com/"><img src="./assets/profile/link-website.svg" width="210" height="39" alt="Explore my website" /></a>
+  <a href="https://sessionize.com/sachin-gupta/"><img src="./assets/profile/link-sessionize.svg" width="210" height="39" alt="View my Sessionize speaker profile" /></a>
+  <a href="https://scholar.google.com/citations?user=sVZi4aoAAAAJ&amp;hl=en"><img src="./assets/profile/link-scholar.svg" width="210" height="39" alt="Research on Google Scholar" /></a>
+  <a href="https://www.linkedin.com/in/guptasachin1/"><img src="./assets/profile/link-linkedin.svg" width="210" height="39" alt="Connect on LinkedIn" /></a>
 </p>
 
-<p align="center">
-  <a href="https://www.guptasachinn.com"><img src="https://img.shields.io/badge/EXPLORE-WRITING%20%2B%20VISUALIZERS-61DAFB?style=for-the-badge&labelColor=07111f" alt="Website" /></a>
-  <a href="https://www.linkedin.com/in/guptasachin1/"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-8DFFCF?style=for-the-badge&labelColor=07111f" alt="LinkedIn" /></a>
-  <a href="https://medium.com/@sachinkg12"><img src="https://img.shields.io/badge/READ-MEDIUM-B894FF?style=for-the-badge&labelColor=07111f" alt="Medium" /></a>
-  <a href="https://orcid.org/0009-0009-7422-4967"><img src="https://img.shields.io/badge/RESEARCH-ORCID-A6CE39?style=for-the-badge&labelColor=07111f" alt="ORCID" /></a>
-  <a href="https://sessionize.com/sachin-gupta"><img src="https://img.shields.io/badge/SPEAK-SESSIONIZE-1AB394?style=for-the-badge&labelColor=07111f" alt="Sessionize speaker profile" /></a>
+---
+
+## <img src="./assets/profile/icon-engineering.svg" width="28" height="28" alt="" /> Engineering & technical leadership
+
+At **eBay**, I work in **Monetization**. My work spans platform modernization, microservices, public APIs, and reconciliation pipelines. My responsibilities have included leading the seller-and-balance migration, rebuilding the public API layer, and driving AI-enablement through data contracts, observability, and governance.
+
+Earlier, at **Tata Consultancy Services**, I built systems for **Walgreens** across specialty pharmacy and merchandising, and worked on **NSDL's e-Voting platform**. Those experiences shaped my approach to architecture: understand the domain, make failures visible, and build systems people can operate with confidence.
+
+**Core areas:** monetization · Java & JVM systems · API modernization · reconciliation · platform reliability · AI governance.
+
+[More about my work and career](https://www.guptasachinn.com/about)
+
+## <img src="./assets/profile/icon-research.svg" width="28" height="28" alt="" /> Research — 9 accepted papers
+
+My research focuses on **trustworthy AI agents, grounded generation, evaluation, and developer tooling**. I connect research questions to working software, explicit checks, and reproducible artifacts.
+
+All nine accepted papers are listed below. Published work links to the publisher record; AgentTrustCI and ToolContractGate link to their public arXiv manuscripts.
+
+| <img src="./assets/profile/tables/header-work.svg" width="180" height="36" alt="Work" /> | <img src="./assets/profile/tables/header-focus.svg" width="260" height="36" alt="Research focus" /> | <img src="./assets/profile/tables/header-venue.svg" width="200" height="36" alt="Venue and status" /> | <img src="./assets/profile/tables/header-paper.svg" width="112" height="36" alt="Paper" /> |
+| :--- | :--- | :--- | :---: |
+| **HeapLens**<br><sub>01 · JVM developer tooling</sub> | IDE-integrated heap analysis, source bridging, and assisted diagnosis | **SPLASH 2026**<br><sub>Companion · Tool Demonstrations</sub><br><img src="./assets/profile/tables/badge-published.svg" width="102" height="24" alt="Published" /> | [<img src="./assets/profile/tables/action-paper.svg" width="116" height="34" alt="Read HeapLens paper" />](https://dl.acm.org/doi/10.1145/3837729.3840479) |
+| **AgentTrustCI**<br><sub>02 · Agent assurance</sub> | Policy, grounding, and tool-trajectory regression tests for Java agents | **IEEE ICCA 2026**<br><sub>Industrial Track</sub><br><img src="./assets/profile/tables/badge-accepted.svg" width="102" height="24" alt="Accepted" /> | [<img src="./assets/profile/tables/action-arxiv.svg" width="116" height="34" alt="Read AgentTrustCI on arXiv" />](https://arxiv.org/abs/2611.06674) |
+| **ToolContractGate**<br><sub>03 · Tool contracts</sub> | Versioned contracts for drift-safe agent tool invocation | **IEEE ICCA 2026**<br><sub>Industrial Track</sub><br><img src="./assets/profile/tables/badge-accepted.svg" width="102" height="24" alt="Accepted" /> | [<img src="./assets/profile/tables/action-arxiv.svg" width="116" height="34" alt="Read ToolContractGate on arXiv" />](https://arxiv.org/abs/2610.33108) |
+| **ScamShield / SMS audit**<br><sub>04 · SMS evaluation</sub> | Policy-aligned evaluation of false positives in Indian financial SMS | **EMNLP 2026**<br><sub>GroundLM workshop</sub><br><img src="./assets/profile/tables/badge-published.svg" width="102" height="24" alt="Published" /> | [<img src="./assets/profile/tables/action-paper.svg" width="116" height="34" alt="Read ScamShield / SMS audit paper" />](https://aclanthology.org/2026.groundlm-1.79/) |
+| **SlideSherlock**<br><sub>05 · Grounded narration</sub> | Evidence-indexed narration with heuristic checks and template fallback | **EMNLP 2026**<br><sub>GroundLM workshop</sub><br><img src="./assets/profile/tables/badge-published.svg" width="102" height="24" alt="Published" /> | [<img src="./assets/profile/tables/action-paper.svg" width="116" height="34" alt="Read SlideSherlock paper" />](https://aclanthology.org/2026.groundlm-1.78/) |
+| **VERITYGATE**<br><sub>06 · Faithfulness</sub> | Schema-level faithfulness checks over structured evidence | **EMNLP 2026**<br><sub>GroundLM workshop</sub><br><img src="./assets/profile/tables/badge-published.svg" width="102" height="24" alt="Published" /> | [<img src="./assets/profile/tables/action-paper.svg" width="116" height="34" alt="Read VERITYGATE paper" />](https://aclanthology.org/2026.groundlm-1.5/) |
+| **TRACE**<br><sub>07 · Evidence retrieval</sub> | Target-aware retrieval and contract-constrained extraction for LitTraceQA | **EMNLP 2026**<br><sub>GroundLM workshop · Shared task</sub><br><img src="./assets/profile/tables/badge-published.svg" width="102" height="24" alt="Published" /> | [<img src="./assets/profile/tables/action-paper.svg" width="116" height="34" alt="Read TRACE paper" />](https://aclanthology.org/2026.groundlm-1.86/) |
+| **EVICALC**<br><sub>08 · Document reasoning</sub> | Evidence extraction and arithmetic for the DocSem shared task | **EMNLP 2026**<br><sub>DocInsights workshop · Shared task</sub><br><img src="./assets/profile/tables/badge-published.svg" width="102" height="24" alt="Published" /> | [<img src="./assets/profile/tables/action-paper.svg" width="116" height="34" alt="Read EVICALC paper" />](https://aclanthology.org/2026.docinsights-1.32/) |
+| **RouteGuard**<br><sub>09 · Selective classification</sub> | Cost-aware abstention for LLM-based IT ticket classification | **IEEE ICTAI 2026**<br><sub>Full paper</sub><br><img src="./assets/profile/tables/badge-published.svg" width="102" height="24" alt="Published" /> | [<img src="./assets/profile/tables/action-paper.svg" width="116" height="34" alt="Read RouteGuard paper" />](https://conferences.computer.org/ictaipub26/pdfs/4880-1wRFtuxgVBHgn8UZdUtTn4/488001a271/488001a271.pdf) |
+
+[Research on my website](https://www.guptasachinn.com/highlights) · [Google Scholar](https://scholar.google.com/citations?user=sVZi4aoAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0009-7422-4967)
+
+## <img src="./assets/profile/icon-speaking.svg" width="28" height="28" alt="" /> Speaking & sessions
+
+<p>
+  <a href="https://sessionize.com/sachin-gupta/"><img src="./assets/profile/speaking-card.svg" width="100%" alt="Sessionize — Practical talks and working demonstrations. Session abstracts, event history and speaking invitations." /></a>
 </p>
 
-<div align="center">
+I speak about the engineering decisions behind reliable platforms and trustworthy AI: how to modernize systems, roll out agent behavior safely, and turn governance into checks that run in CI and at runtime.
 
-### Backend engineer building AI infrastructure at production scale
+My speaking work includes **AI Engineer World's Fair, WeAreDevelopers, PlatformCon, and DeveloperWeek**. My sessions combine an engineering problem, the tradeoffs involved, and an implementation people can inspect or adapt.
 
-I build open source tools that make complex software and AI systems  
-**observable, explainable and safer to operate.**
+Topics I cover include:
 
-`15+ years in backend systems`　`open source`　`AI reliability`　`speaker`　`mentor`
+- **AI agent governance** — policy, grounding, tool-use trajectories, and versioned tool contracts.
+- **Safe agent rollouts** — feature flags, staged adoption, autonomy controls, and kill switches.
+- **Backend architecture & modernization** — OpenAPI-to-MCP integration and choosing domain-driven design patterns that earn their complexity.
 
-</div>
+**[View my Sessionize profile, session abstracts & event history](https://sessionize.com/sachin-gupta/)** · [Watch: Agents Need Feature Flags](https://www.youtube.com/watch?v=zU4EagB311U) · [WeAreDevelopers talk](https://www.guptasachinn.com/activities/wearedevelopers)
 
-<br />
+## <img src="./assets/profile/icon-writing.svg" width="28" height="28" alt="" /> My website — guptasachinn.com
 
-```yaml
-profile_runtime:
-  name: Sachin Gupta
-  location: San Jose, California
-  mission: Make complex systems easier to understand and trust
-  operating_mode: Human led, AI accelerated
-  current_focus:
-    - Developer tools for JVM and distributed systems
-    - Guardrails, evaluation and evidence for AI agents
-    - Practical engineering education
-  side_quests:
-    - Travel with family
-    - Photograph places better than I remember to organize them
-```
-
-> [!NOTE]
-> **My engineering bias:** intelligence is useful, but evidence is deployable.
-
-## The trust stack I am building
-
-<table>
-<tr>
-<td width="50%">
-<a href="https://github.com/sachinkg12/heaplens">
-<img src="./assets/cards/heaplens.svg" width="100%" alt="HeapLens — heap-dump analysis inside VS Code" />
-</a>
-</td>
-<td width="50%">
-<a href="https://github.com/sachinkg12/toolcontractgate">
-<img src="./assets/cards/toolcontractgate.svg" width="100%" alt="ToolContractGate — deterministic policy gate for agent tool calls" />
-</a>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<a href="https://github.com/sachinkg12/SlideSherlock">
-<img src="./assets/cards/slidesherlock.svg" width="100%" alt="SlideSherlock — evidence-grounded narrated video from slides" />
-</a>
-</td>
-<td width="50%">
-<a href="https://github.com/sachinkg12/agenttrustci">
-<img src="./assets/cards/agenttrustci.svg" width="100%" alt="AgentTrustCI — policy, grounding and trajectory tests for Java LLM agents" />
-</a>
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <img src="./assets/heaplens-stats.svg" width="100%" alt="HeapLens in the wild — 10,521 downloads across 61 countries and 378 cities, with over 26,000 usage events" />
+<p>
+  <a href="https://www.guptasachinn.com/"><img src="./assets/profile/website-card.svg" width="100%" alt="guptasachinn.com — Engineering writing, interactive visualizers and research. Explore my website." /></a>
 </p>
 
-<p align="center">
-  <img src="./assets/heaplens-map.svg" width="78%" alt="World map of HeapLens active usage across 61 countries" />
+**[guptasachinn.com](https://www.guptasachinn.com/)** is my home for engineering writing, interactive explanations, research, talks, and career work. I use examples, diagrams, and working visualizers to explain the mechanisms behind a system and the tradeoffs involved in building it.
+
+- **[RAG field guide](https://www.guptasachinn.com/tags/rag)** — retrieval, grounding, citations, and when to abstain.
+- **[Inference explained](https://www.guptasachinn.com/writing/dspark)** — speculative decoding and DSpark through visual explanations.
+- **[Interactive visualizers](https://www.guptasachinn.com/visualizers)** — explore engineering concepts by changing the inputs.
+
+[Explore my website](https://www.guptasachinn.com/) · [Read on Medium](https://medium.com/@sachinkg12)
+
+## <img src="./assets/profile/icon-opensource.svg" width="28" height="28" alt="" /> Open-source work
+
+I build tools around the same questions I encounter in engineering and research: what is happening, what evidence supports an answer, and which actions should be allowed?
+
+| <img src="./assets/profile/tables/header-project.svg" width="180" height="36" alt="Project" /> | <img src="./assets/profile/tables/header-built.svg" width="400" height="36" alt="What I built" /> | <img src="./assets/profile/tables/header-code.svg" width="112" height="36" alt="Code" /> |
+| :--- | :--- | :---: |
+| **[HeapLens](https://github.com/sachinkg12/heaplens)**<br><sub>JVM diagnostics</sub> | Java and Android heap analysis across VS Code, IntelliJ IDEA, and the terminal/browser, backed by a native Rust engine. | [<img src="./assets/profile/tables/action-code.svg" width="116" height="34" alt="View HeapLens source code" />](https://github.com/sachinkg12/heaplens) |
+| **[ToolContractGate](https://github.com/sachinkg12/toolcontractgate)**<br><sub>Agent tool governance</sub> | A deterministic gate that checks AI tool calls against approved, versioned contracts. | [<img src="./assets/profile/tables/action-code.svg" width="116" height="34" alt="View ToolContractGate source code" />](https://github.com/sachinkg12/toolcontractgate) |
+| **[SlideSherlock](https://github.com/sachinkg12/SlideSherlock)**<br><sub>Evidence-based media</sub> | A pipeline for turning slides into narrated video with source evidence and provenance. | [<img src="./assets/profile/tables/action-code.svg" width="116" height="34" alt="View SlideSherlock source code" />](https://github.com/sachinkg12/SlideSherlock) |
+| **[AgentTrustCI](https://github.com/sachinkg12/agenttrustci)**<br><sub>Agent regression testing</sub> | Experimental JUnit checks for agent policy, answer grounding, and tool-use sequences. | [<img src="./assets/profile/tables/action-code.svg" width="116" height="34" alt="View AgentTrustCI source code" />](https://github.com/sachinkg12/agenttrustci) |
+| **[RouteGuard](https://github.com/sachinkg12/RouteGuard)**<br><sub>Selective classification</sub> | A reproducible framework for evaluating classification, abstention, and asymmetric error costs. | [<img src="./assets/profile/tables/action-code.svg" width="116" height="34" alt="View RouteGuard source code" />](https://github.com/sachinkg12/RouteGuard) |
+
+<p>
+  <a href="https://github.com/sachinkg12/heaplens"><img src="./assets/profile/heaplens-adoption.svg" width="100%" alt="HeapLens — 25,370 recorded marketplace downloads as of November 6, 2026. VS Code: 12,367; Open VSX: 12,966; JetBrains: 37." /></a>
 </p>
 
-## The idea behind the projects
+<sub>Snapshot: November 6, 2026 · [VS Code Marketplace: 12,367 downloads; 2,215 installs](https://marketplace.visualstudio.com/items?itemName=guptasachinn.heaplens) · [Open VSX: 12,966 downloads](https://open-vsx.org/extension/guptasachinn/heaplens) · [JetBrains: 37 downloads](https://plugins.jetbrains.com/plugin/35004-heaplens). Download counts measure distribution, not unique users.</sub>
 
-<p align="center">
-  <img src="./assets/thesis.svg" width="100%" alt="Complexity to visibility to evidence to guardrails to trust" />
-</p>
+## <img src="./assets/profile/icon-community.svg" width="28" height="28" alt="" /> Reviewing & research service
 
-The projects look different, but they follow the same pattern:
+I contribute as a research reviewer, Area Chair, and artifact evaluator. Selected roles, with the conference and workshop scope stated explicitly:
 
-* **HeapLens** makes runtime memory behavior visible.
-* **SlideSherlock** connects generated narration to source evidence.
-* **ToolContractGate** constrains what an agent is allowed to call.
-* **AgentTrustCI** tests whether agent behavior matches policy and grounding expectations.
+| <img src="./assets/profile/tables/header-review-venue.svg" width="180" height="36" alt="Venue" /> | <img src="./assets/profile/tables/header-review-role.svg" width="560" height="36" alt="Research service" /> |
+| :--- | :--- |
+| **NeurIPS 2026**<br><sub>Workshop service</sub> | <img src="./assets/profile/tables/badge-reviewer.svg" width="100" height="24" alt="Reviewer" /><br>Workshop reviewer for [Agents in the Wild](https://agentwild-workshop.github.io/neurips2026/), [Global South AI](https://sites.google.com/view/globalsouthai-neurips26/home), and [VLM4RWD](https://vlm4rwd.github.io/). |
+| **ICML 2026**<br><sub>Workshop service</sub> | <img src="./assets/profile/tables/badge-reviewer.svg" width="100" height="24" alt="Reviewer" /><br>Workshop reviewer for [Agents in the Wild](https://agentwild-workshop.github.io/icml2026/) and [Trustworthy AI for Good](https://trustworthy-ai-for-good.github.io/). |
+| **ACL & EMNLP 2026**<br><sub>Workshop & industry service</sub> | <img src="./assets/profile/tables/badge-area-chair.svg" width="114" height="24" alt="Area Chair" /><br>**[GroundLM workshop at EMNLP](https://groundlm.github.io/grouplm_emnlp2026/)**<br><br><img src="./assets/profile/tables/badge-reviewer.svg" width="100" height="24" alt="Reviewer" /><br>[LT-EDI workshop at ACL](https://sites.google.com/view/lt-edi-2026/home) · [EMNLP Industry Track](https://2026.emnlp.org/calls/industry_track/) · [REALM workshop at EMNLP](https://realm-workshop.github.io/). |
+| **COLM 2026**<br><sub>Workshop service</sub> | <img src="./assets/profile/tables/badge-reviewer.svg" width="100" height="24" alt="Reviewer" /><br>Reviewer for the [Efficient Reasoning workshop](https://wdlctc.github.io/efficient-reasoning-2026/). |
+| **ACM / IEEE**<br><sub>Evaluation & peer review</sub> | <img src="./assets/profile/tables/badge-artifacts.svg" width="186" height="24" alt="Artifact evaluation" /><br>**ASE, CAV, ACSAC, and CAIS**<br><br>Peer review for **IEEE Access** · Program committees for **IEEE BigData** and **IEEE ICA**. |
 
-The goal is not to put AI everywhere. The goal is to make powerful systems **understandable enough to operate responsibly**.
+[Reviewing & community record](https://www.guptasachinn.com/highlights)
 
-## Live open source telemetry
+## <img src="./assets/profile/icon-community.svg" width="28" height="28" alt="" /> Mentoring & community
 
-<p align="center">
-  <img src="./assets/live.svg" width="100%" alt="Live open source signals updated by GitHub Actions" />
-</p>
+**Recognized as a Top 1% Mentor on ADPList for October 2026.**
 
-This panel is generated from the GitHub API by the workflow in this profile repository. It updates the public repository count and total stars across my open source projects.
+I mentor students and engineers on technical growth, career decisions, and building practical skills. I also support university hackathons and teams building software for nonprofits, including **Weber State University** and **Opportunity Hack**.
 
-<details>
-<summary><b>Why automate the profile?</b></summary>
-<br />
+[Mentoring on ADPList](https://adplist.org/mentors/sachin-gupta-mpepaxnr) · [Community work](https://www.guptasachinn.com/highlights)
 
-Because a 2026 profile should not be a résumé frozen in Markdown.
+## <img src="./assets/profile/icon-community.svg" width="28" height="28" alt="" /> Community word cloud
 
-The automation is intentionally small and inspectable. It uses GitHub's public API, generates one local SVG and commits only when the numbers change. No analytics pixel, no private data and no mystery profile service.
+**What should we explore next?** Add a topic, a curiosity, or a shared interest — from AI agents and Java to photography and travel.
 
-</details>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile/wordcloud-mobile.svg" />
+  <img src="./assets/profile/wordcloud.svg" width="100%" alt="Community word cloud, starting with topics from my work and interests: AI Agents, Java, Open Source, Mentoring, Travel, Photography, Research, and more. Starter words are not visitor submissions." />
+</picture>
 
-## I build in public across four loops
+**[Add your word](https://github.com/sachinkg12/sachinkg12/issues/new?template=wordcloud.yml)** · [See community submissions](https://github.com/sachinkg12/sachinkg12/issues?q=is%3Aissue%20%22%5Bwordcloud%5D%22%20in%3Atitle)
 
-<table>
-<tr>
-<td width="25%" valign="top">
-<h3>01 / Build</h3>
-<p>Developer tools, experiments, datasets and reference implementations that people can run.</p>
-</td>
-<td width="25%" valign="top">
-<h3>02 / Explain</h3>
-<p>Field guides, visualizers and talks that turn difficult engineering ideas into usable mental models.</p>
-</td>
-<td width="25%" valign="top">
-<h3>03 / Review</h3>
-<p>Research reviewing, artifact evaluation and honest technical feedback for other builders.</p>
-</td>
-<td width="25%" valign="top">
-<h3>04 / Connect</h3>
-<p>Mentoring, hackathon judging, community conversations and contributor support.</p>
-</td>
-</tr>
-</table>
+<sub>The cloud starts with my interests. Your latest submission contributes one word; matching words grow as more people choose them. Submit through GitHub and the cloud refreshes automatically.</sub>
 
-### Selected signals from the field
+## <img src="./assets/profile/icon-personal.svg" width="28" height="28" alt="" /> Beyond engineering
 
-| Signal | What you will find |
-|---|---|
-| **Engineering writing + visualizers** | Practical field guides and interactive explainers on [guptasachinn.com](https://www.guptasachinn.com/) |
-| **[RAG field guide](https://www.guptasachinn.com/tags/rag)** | A practical series covering retrieval, context, abstention, citations and vectorless RAG |
-| **[Inference series](https://www.guptasachinn.com/writing/dspark)** | Visual explanations of speculative decoding and DSpark |
-| **[Open source lab](https://github.com/sachinkg12?tab=repositories&sort=stargazers)** | Tools spanning JVM memory, AI agent safety, evidence grounded media and CI evaluation |
+I travel with my family and photograph landscapes, cities, and the moments between destinations. Teaching, mentoring, and exploring new places are part of how I stay curious.
 
-## Talks that became tools
+For technical collaboration, research conversations, or speaking invitations, **[connect on LinkedIn](https://www.linkedin.com/in/guptasachin1/)** or **[find me on Sessionize](https://sessionize.com/sachin-gupta/)**.
 
-I share practical engineering patterns from production — usually alongside open-source implementations you can inspect, run, and challenge.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://www.youtube.com/watch?v=TJPInBjhE4Q">
-<img src="https://img.youtube.com/vi/TJPInBjhE4Q/hqdefault.jpg" alt="ReviewDebt: a practical framework for scoring every pull request" width="100%" />
-</a>
-<p><b>ReviewDebt: scoring every pull request</b><br/>
-A measurable framework for the widening gap between agent-generated code and human-reviewed evidence.</p>
-</td>
-<td width="50%" valign="top">
-<a href="https://www.youtube.com/watch?v=zU4EagB311U">
-<img src="https://img.youtube.com/vi/zU4EagB311U/hqdefault.jpg" alt="Agents Need Feature Flags" width="100%" />
-</a>
-<p><b>Agents Need Feature Flags</b><br/>
-Runtime control and safe rollout for autonomous AI agents in production.</p>
-</td>
-</tr>
-</table>
-
-## Organizations I've collaborated with
-
-<p align="center">
-  <img src="./assets/collaborations.png" width="100%" alt="Organizations Sachin has collaborated with — conferences spoken at, program committees reviewed for, and communities mentored and recognized by" />
-</p>
-
-## Beyond the terminal
-
-<table>
-<tr>
-<td width="58%" valign="top">
-<h3>Travel is my second distributed system</h3>
-<p>There are unreliable networks, partial information, regional dependencies, strict latency budgets and at least one stakeholder asking, “Are we there yet?”</p>
-<p>I travel with my family and photograph landscapes, cities and the moments between destinations. Photography has trained the same instinct I use in engineering: slow down, observe carefully and change the frame before changing the answer.</p>
-<p><b>Current travel protocol</b></p>
-<pre>
-plan ambitiously
-cache snacks locally
-expect partial failure
-preserve the evidence
-take the photo
-</pre>
-</td>
-<td width="42%" valign="top">
-<pre>
-CAMERA STATUS
-─────────────
-battery       34%
-storage       somehow full
-golden hour   18:42
-trip backlog  unbounded
-best photo    still not sorted
-</pre>
-<p><i>A good itinerary, like a good distributed system, assumes something will fail.</i></p>
-</td>
-</tr>
-</table>
-
-## Start here
-
-<table>
-<tr>
-<td align="center" width="25%">
-<a href="https://github.com/sachinkg12/heaplens/issues"><b>Use a tool</b></a><br />
-<sub>Try it on a real problem</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Asachinkg12"><b>Report a rough edge</b></a><br />
-<sub>Honest feedback beats vanity metrics</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Asachinkg12+label%3A%22good+first+issue%22"><b>Make a first contribution</b></a><br />
-<sub>Small pull requests are welcome</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.guptasachinn.com/"><b>Learn with me</b></a><br />
-<sub>Read, visualize and question</sub>
-</td>
-</tr>
-</table>
-
-## Current operating state
-
-```diff
-+ building tools that make AI behavior easier to verify
-+ publishing engineering explanations with working visualizers
-+ looking for users, contributors and uncomfortable edge cases
-+ planning the next trip before sorting the previous trip's photographs
-- pretending that an LLM response is evidence
-```
-
-<div align="center">
-
-### Build carefully. Share openly. Keep exploring.
-
-<sub>All views are my own and shared in a personal capacity.</sub>
-
-</div>
+<sub>San Jose, California · Open-source work and views shared in a personal capacity.</sub>

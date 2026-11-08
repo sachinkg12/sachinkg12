@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-11-06",
+  "papers": [
+    {
+      "name": "HeapLens",
+      "title": "HeapLens: An IDE-Integrated Tool for Heap Dump Analysis with In-Editor Source Bridging and LLM-Assisted Diagnosis",
+      "venue": "ACM SIGPLAN SPLASH 2026",
+      "track": "Joint SPLASH/ISSTA Tool Demonstrations \u00b7 SPLASH Companion proceedings",
+      "status": "published",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3837729.3840479",
+      "code_url": "https://github.com/sachinkg12/heaplens"
+    },
+    {
+      "name": "AgentTrustCI",
+      "title": "AgentTrustCI: Build-Time Policy, Grounding, and Trajectory Tests for Java LLM Agents",
+      "venue": "IEEE ICCA 2026",
+      "track": "Industrial Track",
+      "status": "accepted",
+      "paper_url": "https://arxiv.org/abs/2611.06674",
+      "code_url": "https://github.com/sachinkg12/agenttrustci"
+    },
+    {
+      "name": "ToolContractGate",
+      "title": "ToolContractGate: Versioned Trusted Contracts for Drift-Safe Agent Tool Invocation",
+      "venue": "IEEE ICCA 2026",
+      "track": "Industrial Track",
+      "status": "accepted",
+      "paper_url": "https://arxiv.org/abs/2610.33108",
+      "code_url": "https://github.com/sachinkg12/toolcontractgate"
+    },
+    {
+      "name": "ScamShield / SMS audit",
+      "title": "Default Zero-Shot LLM APIs Over-Flag Indian Financial SMS: A Policy-Aligned Benchmark and Template-Level Pre-Deployment Audit",
+      "venue": "GroundLM 2026 \u00b7 EMNLP 2026 workshop",
+      "track": "Research paper \u00b7 GroundLM workshop proceedings",
+      "status": "published",
+      "paper_url": "https://aclanthology.org/2026.groundlm-1.79/",
+      "code_url": ""
+    },
+    {
+      "name": "SlideSherlock",
+      "title": "Evidence-Indexed Slide Narration With Heuristic Checks and Template Fallback",
+      "venue": "GroundLM 2026 \u00b7 EMNLP 2026 workshop",
+      "track": "Research paper \u00b7 GroundLM workshop proceedings",
+      "status": "published",
+      "paper_url": "https://aclanthology.org/2026.groundlm-1.78/",
+      "code_url": ""
+    },
+    {
+      "name": "VERITYGATE",
+      "title": "VERITYGATE: A Four-Gate Schema-Level Faithfulness Framework and Paired Benchmark for Grounded LLM Narrations over Structured Evidence",
+      "venue": "GroundLM 2026 \u00b7 EMNLP 2026 workshop",
+      "track": "Research paper \u00b7 GroundLM workshop proceedings",
+      "status": "published",
+      "paper_url": "https://aclanthology.org/2026.groundlm-1.5/",
+      "code_url": "https://github.com/sachinkg12/yukti/releases/tag/veritygate-groundlm-2026-v1.0.0"
+    },
+    {
+      "name": "TRACE",
+      "title": "TRACE: Target-Aware Retrieval, Attributed Evidence, and Contract-Constrained Extraction for LitTraceQA",
+      "venue": "GroundLM 2026 \u00b7 EMNLP 2026 workshop",
+      "track": "LitTraceQA shared-task system paper \u00b7 GroundLM workshop proceedings",
+      "status": "published",
+      "paper_url": "https://aclanthology.org/2026.groundlm-1.86/",
+      "code_url": ""
+    },
+    {
+      "name": "EVICALC",
+      "title": "Evidence First, Arithmetic Second: A System Report and Failure Analysis for DOCSEM",
+      "venue": "DocInsights 2026 \u00b7 EMNLP 2026 workshop",
+      "track": "DocSem shared-task system report \u00b7 DocInsights workshop proceedings",
+      "status": "published",
+      "paper_url": "https://aclanthology.org/2026.docinsights-1.32/",
+      "code_url": ""
+    },
+    {
+      "name": "RouteGuard",
+      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+      "venue": "IEEE ICTAI 2026",
+      "track": "Full paper",
+      "status": "published",
+      "paper_url": "https://conferences.computer.org/ictaipub26/pdfs/4880-1wRFtuxgVBHgn8UZdUtTn4/488001a271/488001a271.pdf",
+      "code_url": ""
+    }
+  ]
+}

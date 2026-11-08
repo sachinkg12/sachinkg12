@@ -1,0 +1,15 @@
+{
+  "id": "forest",
+  "name": "Forest & slate",
+  "ink": "#163029",
+  "base": "#163029",
+  "base2": "#0e211c",
+  "primary": "#176447",
+  "highlight": "#8fdeb9",
+  "mist": "#f3f7f4",
+  "border": "#d0dfd4",
+  "accent": "#facc15",
+  "light": "#bfd7c8",
+  "slate": "#52635b",
+  "cloud": ["#8fdeb9", "#bfd7c8", "#e6eee8"]
+}

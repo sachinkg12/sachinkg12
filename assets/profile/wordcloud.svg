@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510" role="img" aria-labelledby="cloud-title cloud-desc">
+<title id="cloud-title">What should we explore next?</title><desc id="cloud-desc">STARTER TOPICS · ADD THE FIRST COMMUNITY WORD. Topics: AI Agents, Java, Open Source, Mentoring, RAG, Reliable Systems, Photography, Research, Travel, Architecture, JVM, Trustworthy AI, Developer Tools, Teaching, APIs, Feature Flags, Grounding, Observability, Curiosity, Distributed Systems, Evidence, System Design.</desc>
+<defs><linearGradient id="cloud-bg" x2="1" y2="1"><stop stop-color="#163029"/><stop offset="1" stop-color="#0e211c"/></linearGradient><radialGradient id="cloud-glow"><stop stop-color="#176447" stop-opacity=".11"/><stop offset="1" stop-color="#176447" stop-opacity="0"/></radialGradient><pattern id="cloud-dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#bfd7c8" opacity=".09"/></pattern></defs>
+<rect x="1" y="1" width="1198" height="508" rx="18" fill="url(#cloud-bg)" stroke="#176447"/><rect width="1200" height="510" rx="18" fill="url(#cloud-dots)"/><ellipse cx="600" cy="255" rx="600" ry="255" fill="url(#cloud-glow)"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+<text x="40" y="38" fill="#bfd7c8" font-family="ui-monospace,Consolas,monospace" font-size="13" letter-spacing="1.8">COMMUNITY / WORD CLOUD</text>
+<text x="40" y="84" fill="#f1f5f9" font-size="34" font-weight="600" letter-spacing="-.7">What should we explore next?</text>
+<text x="40" y="116" fill="#bfd7c8" font-size="18">A topic, a curiosity, or a shared interest.</text>
+<text x="600" y="294" text-anchor="middle" dominant-baseline="central" font-size="56" font-weight="650" fill="#8fdeb9">AI Agents</text>
+<text x="366" y="293.5" text-anchor="middle" dominant-baseline="central" font-size="54" font-weight="650" fill="#bfd7c8">Java</text>
+<text x="617" y="367.5" text-anchor="middle" dominant-baseline="central" font-size="52" font-weight="650" fill="#e6eee8">Open Source</text>
+<text x="613" y="222" text-anchor="middle" dominant-baseline="central" font-size="50" font-weight="650" fill="#8fdeb9">Mentoring</text>
+<text x="814.5" y="288" text-anchor="middle" dominant-baseline="central" font-size="50" font-weight="650" fill="#bfd7c8">RAG</text>
+<text x="290" y="225" text-anchor="middle" dominant-baseline="central" font-size="37" font-weight="650" fill="#e6eee8">Reliable Systems</text>
+<text x="284" y="359.5" text-anchor="middle" dominant-baseline="central" font-size="41" font-weight="450" fill="#8fdeb9">Photography</text>
+<text x="885.5" y="220.5" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="450" fill="#bfd7c8">Research</text>
+<text x="964.5" y="296.5" text-anchor="middle" dominant-baseline="central" font-size="47" font-weight="450" fill="#e6eee8">Travel</text>
+<text x="941.5" y="360" text-anchor="middle" dominant-baseline="central" font-size="38" font-weight="450" fill="#8fdeb9">Architecture</text>
+<text x="227" y="293" text-anchor="middle" dominant-baseline="central" font-size="45" font-weight="450" fill="#bfd7c8">JVM</text>
+<text x="173.5" y="165.5" text-anchor="middle" dominant-baseline="central" font-size="33" font-weight="450" fill="#e6eee8">Trustworthy AI</text>
+<text x="596.5" y="165.5" text-anchor="middle" dominant-baseline="central" font-size="31" font-weight="450" fill="#8fdeb9">Developer Tools</text>
+<text x="823.5" y="164.5" text-anchor="middle" dominant-baseline="central" font-size="31" font-weight="450" fill="#bfd7c8">Teaching</text>
+<text x="113" y="297" text-anchor="middle" dominant-baseline="central" font-size="38" font-weight="450" fill="#e6eee8">APIs</text>
+<text x="586" y="423.5" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="450" fill="#8fdeb9">Feature Flags</text>
+<text x="989.5" y="162.5" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="450" fill="#bfd7c8">Grounding</text>
+<text x="147.5" y="410.5" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="450" fill="#e6eee8">Observability</text>
+<text x="358.5" y="409.5" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="450" fill="#8fdeb9">Curiosity</text>
+<text x="940" y="408.5" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="450" fill="#bfd7c8">Distributed Systems</text>
+<text x="376.5" y="160.5" text-anchor="middle" dominant-baseline="central" font-size="25" font-weight="450" fill="#e6eee8">Evidence</text>
+<text x="1080.5" y="199" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="450" fill="#8fdeb9">System Design</text>
+<path d="M40 456H1160" stroke="#176447"/>
+<text x="40" y="486" fill="#bfd7c8" font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing=".6">STARTER TOPICS · ADD THE FIRST COMMUNITY WORD</text>
+<text x="1160" y="486" fill="#8fdeb9" font-size="13" text-anchor="end">Your word belongs here ↗</text>
+</g></svg>

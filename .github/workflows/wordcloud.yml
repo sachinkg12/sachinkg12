@@ -1,0 +1,43 @@
+name: Refresh community word cloud
+
+# Refresh the README cloud from public GitHub issue submissions.
+on:
+  issues:
+    types: [opened, edited, deleted, labeled, unlabeled]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: community-wordcloud
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, '[wordcloud]') || github.event.changes.title != null
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Rebuild cloud from public issue submissions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/build_wordcloud.mjs --sync
+      - name: Commit updated cloud assets
+        run: |
+          git add assets/profile/wordcloud.json assets/profile/wordcloud.svg assets/profile/wordcloud-mobile.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh community word cloud'
+          git pull --rebase origin main
+          git push origin HEAD:main

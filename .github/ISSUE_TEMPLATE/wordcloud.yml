@@ -1,0 +1,17 @@
+name: Add a word to the community cloud
+description: Share a topic, curiosity, or interest you would like to explore.
+title: "[wordcloud] My word"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **What should we explore next?**
+        Add a topic, a curiosity, or a shared interest. Your latest submission is your word in the cloud; matching words grow as more people choose them.
+  - type: input
+    id: word
+    attributes:
+      label: Your word
+      description: Use 2–24 characters and up to three words. Keep it suitable for a public community page.
+      placeholder: e.g. AI Agents, Java, Photography
+    validations:
+      required: true

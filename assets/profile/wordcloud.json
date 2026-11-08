@@ -1,28 +1,94 @@
 {
   "prompt": "What should we explore next?",
   "starters": [
-    {"word": "AI Agents", "weight": 10},
-    {"word": "Java", "weight": 9},
-    {"word": "Open Source", "weight": 8},
-    {"word": "Reliable Systems", "weight": 7},
-    {"word": "Mentoring", "weight": 7},
-    {"word": "RAG", "weight": 7},
-    {"word": "Travel", "weight": 6},
-    {"word": "Photography", "weight": 6},
-    {"word": "Research", "weight": 6},
-    {"word": "Trustworthy AI", "weight": 5},
-    {"word": "Architecture", "weight": 5},
-    {"word": "JVM", "weight": 5},
-    {"word": "Teaching", "weight": 4},
-    {"word": "Developer Tools", "weight": 4},
-    {"word": "Grounding", "weight": 3},
-    {"word": "Observability", "weight": 3},
-    {"word": "Feature Flags", "weight": 3},
-    {"word": "APIs", "weight": 3},
-    {"word": "System Design", "weight": 2},
-    {"word": "Evidence", "weight": 2},
-    {"word": "Curiosity", "weight": 2},
-    {"word": "Distributed Systems", "weight": 2}
+    {
+      "word": "AI Agents",
+      "weight": 10
+    },
+    {
+      "word": "Java",
+      "weight": 9
+    },
+    {
+      "word": "Open Source",
+      "weight": 8
+    },
+    {
+      "word": "Reliable Systems",
+      "weight": 7
+    },
+    {
+      "word": "Mentoring",
+      "weight": 7
+    },
+    {
+      "word": "RAG",
+      "weight": 7
+    },
+    {
+      "word": "Travel",
+      "weight": 6
+    },
+    {
+      "word": "Photography",
+      "weight": 6
+    },
+    {
+      "word": "Research",
+      "weight": 6
+    },
+    {
+      "word": "Trustworthy AI",
+      "weight": 5
+    },
+    {
+      "word": "Architecture",
+      "weight": 5
+    },
+    {
+      "word": "JVM",
+      "weight": 5
+    },
+    {
+      "word": "Teaching",
+      "weight": 4
+    },
+    {
+      "word": "Developer Tools",
+      "weight": 4
+    },
+    {
+      "word": "Grounding",
+      "weight": 3
+    },
+    {
+      "word": "Observability",
+      "weight": 3
+    },
+    {
+      "word": "Feature Flags",
+      "weight": 3
+    },
+    {
+      "word": "APIs",
+      "weight": 3
+    },
+    {
+      "word": "System Design",
+      "weight": 2
+    },
+    {
+      "word": "Evidence",
+      "weight": 2
+    },
+    {
+      "word": "Curiosity",
+      "weight": 2
+    },
+    {
+      "word": "Distributed Systems",
+      "weight": 2
+    }
   ],
   "submissions": []
 }

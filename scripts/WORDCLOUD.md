@@ -17,7 +17,7 @@ python3 scripts/render_profile_preview.py --output-dir /tmp/sachin-github-redesi
 public GitHub contributions. Starter weights set the initial visual composition;
 they are not visitor votes. New contributions increase the size of matching words.
 The cloud displays up to 30 of the most prominent topics to preserve readability.
-The selected Forest & Slate colors come from `assets/profile/theme.json`, shared
+The website-style colors come from `assets/profile/theme.json`, shared
 by the static asset builder and the browser preview, including shuffled clouds.
 Each GitHub account contributes one current word, taken from its latest eligible
 issue. The preview keeps trial words in the current browser's local storage.

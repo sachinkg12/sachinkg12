@@ -5,10 +5,14 @@
       "name": "HeapLens",
       "title": "HeapLens: An IDE-Integrated Tool for Heap Dump Analysis with In-Editor Source Bridging and LLM-Assisted Diagnosis",
       "venue": "ACM SIGPLAN SPLASH 2026",
-      "track": "Joint SPLASH/ISSTA Tool Demonstrations \u00b7 SPLASH Companion proceedings",
+      "track": "Joint SPLASH/ISSTA Tool Demonstrations · SPLASH Companion proceedings",
       "status": "published",
       "paper_url": "https://dl.acm.org/doi/10.1145/3837729.3840479",
-      "code_url": "https://github.com/sachinkg12/heaplens"
+      "code_url": "https://github.com/sachinkg12/heaplens",
+      "category": "JVM developer tooling",
+      "focus": "IDE-integrated heap analysis, source bridging, and assisted diagnosis",
+      "display_venue": "SPLASH 2026",
+      "display_track": "Companion · Tool Demonstrations"
     },
     {
       "name": "AgentTrustCI",
@@ -17,7 +21,11 @@
       "track": "Industrial Track",
       "status": "accepted",
       "paper_url": "https://arxiv.org/abs/2611.06674",
-      "code_url": "https://github.com/sachinkg12/agenttrustci"
+      "code_url": "https://github.com/sachinkg12/agenttrustci",
+      "category": "Agent assurance",
+      "focus": "Policy, grounding, and tool-trajectory regression tests for Java agents",
+      "display_venue": "IEEE ICCA 2026",
+      "display_track": "Industrial Track"
     },
     {
       "name": "ToolContractGate",
@@ -26,52 +34,76 @@
       "track": "Industrial Track",
       "status": "accepted",
       "paper_url": "https://arxiv.org/abs/2610.33108",
-      "code_url": "https://github.com/sachinkg12/toolcontractgate"
+      "code_url": "https://github.com/sachinkg12/toolcontractgate",
+      "category": "Tool contracts",
+      "focus": "Versioned contracts for drift-safe agent tool invocation",
+      "display_venue": "IEEE ICCA 2026",
+      "display_track": "Industrial Track"
     },
     {
       "name": "ScamShield / SMS audit",
       "title": "Default Zero-Shot LLM APIs Over-Flag Indian Financial SMS: A Policy-Aligned Benchmark and Template-Level Pre-Deployment Audit",
-      "venue": "GroundLM 2026 \u00b7 EMNLP 2026 workshop",
-      "track": "Research paper \u00b7 GroundLM workshop proceedings",
+      "venue": "GroundLM 2026 · EMNLP 2026 workshop",
+      "track": "Research paper · GroundLM workshop proceedings",
       "status": "published",
       "paper_url": "https://aclanthology.org/2026.groundlm-1.79/",
-      "code_url": ""
+      "code_url": "",
+      "category": "SMS evaluation",
+      "focus": "Policy-aligned evaluation of false positives in Indian financial SMS",
+      "display_venue": "EMNLP 2026",
+      "display_track": "GroundLM workshop"
     },
     {
       "name": "SlideSherlock",
       "title": "Evidence-Indexed Slide Narration With Heuristic Checks and Template Fallback",
-      "venue": "GroundLM 2026 \u00b7 EMNLP 2026 workshop",
-      "track": "Research paper \u00b7 GroundLM workshop proceedings",
+      "venue": "GroundLM 2026 · EMNLP 2026 workshop",
+      "track": "Research paper · GroundLM workshop proceedings",
       "status": "published",
       "paper_url": "https://aclanthology.org/2026.groundlm-1.78/",
-      "code_url": ""
+      "code_url": "",
+      "category": "Grounded narration",
+      "focus": "Evidence-indexed narration with heuristic checks and template fallback",
+      "display_venue": "EMNLP 2026",
+      "display_track": "GroundLM workshop"
     },
     {
       "name": "VERITYGATE",
       "title": "VERITYGATE: A Four-Gate Schema-Level Faithfulness Framework and Paired Benchmark for Grounded LLM Narrations over Structured Evidence",
-      "venue": "GroundLM 2026 \u00b7 EMNLP 2026 workshop",
-      "track": "Research paper \u00b7 GroundLM workshop proceedings",
+      "venue": "GroundLM 2026 · EMNLP 2026 workshop",
+      "track": "Research paper · GroundLM workshop proceedings",
       "status": "published",
       "paper_url": "https://aclanthology.org/2026.groundlm-1.5/",
-      "code_url": "https://github.com/sachinkg12/yukti/releases/tag/veritygate-groundlm-2026-v1.0.0"
+      "code_url": "https://github.com/sachinkg12/yukti/releases/tag/veritygate-groundlm-2026-v1.0.0",
+      "category": "Faithfulness",
+      "focus": "Schema-level faithfulness checks over structured evidence",
+      "display_venue": "EMNLP 2026",
+      "display_track": "GroundLM workshop"
     },
     {
       "name": "TRACE",
       "title": "TRACE: Target-Aware Retrieval, Attributed Evidence, and Contract-Constrained Extraction for LitTraceQA",
-      "venue": "GroundLM 2026 \u00b7 EMNLP 2026 workshop",
-      "track": "LitTraceQA shared-task system paper \u00b7 GroundLM workshop proceedings",
+      "venue": "GroundLM 2026 · EMNLP 2026 workshop",
+      "track": "LitTraceQA shared-task system paper · GroundLM workshop proceedings",
       "status": "published",
       "paper_url": "https://aclanthology.org/2026.groundlm-1.86/",
-      "code_url": ""
+      "code_url": "",
+      "category": "Evidence retrieval",
+      "focus": "Target-aware retrieval and contract-constrained extraction for LitTraceQA",
+      "display_venue": "EMNLP 2026",
+      "display_track": "GroundLM workshop · Shared task"
     },
     {
       "name": "EVICALC",
       "title": "Evidence First, Arithmetic Second: A System Report and Failure Analysis for DOCSEM",
-      "venue": "DocInsights 2026 \u00b7 EMNLP 2026 workshop",
-      "track": "DocSem shared-task system report \u00b7 DocInsights workshop proceedings",
+      "venue": "DocInsights 2026 · EMNLP 2026 workshop",
+      "track": "DocSem shared-task system report · DocInsights workshop proceedings",
       "status": "published",
       "paper_url": "https://aclanthology.org/2026.docinsights-1.32/",
-      "code_url": ""
+      "code_url": "",
+      "category": "Document reasoning",
+      "focus": "Evidence extraction and arithmetic for the DocSem shared task",
+      "display_venue": "EMNLP 2026",
+      "display_track": "DocInsights workshop · Shared task"
     },
     {
       "name": "RouteGuard",
@@ -80,7 +112,11 @@
       "track": "Full paper",
       "status": "published",
       "paper_url": "https://conferences.computer.org/ictaipub26/pdfs/4880-1wRFtuxgVBHgn8UZdUtTn4/488001a271/488001a271.pdf",
-      "code_url": ""
+      "code_url": "",
+      "category": "Selective classification",
+      "focus": "Cost-aware abstention for LLM-based IT ticket classification",
+      "display_venue": "IEEE ICTAI 2026",
+      "display_track": "Full paper"
     }
   ]
 }

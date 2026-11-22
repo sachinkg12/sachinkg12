@@ -14,10 +14,18 @@ FONTS = Path(__file__).resolve().parent.parent / 'assets/profile/fonts'
 
 
 @lru_cache(maxsize=24)
-def font_for(family, weight):
+def font_for(family, weight, style='normal'):
     name = {'Space Grotesk': 'SpaceGrotesk.ttf', 'Sora': 'Sora.ttf',
+            'Arial': 'Arimo.ttf',
+            'IBM Plex Sans': 'IBMPlexSans.ttf',
+            'Lora': 'Lora-Italic.ttf' if style == 'italic' else 'Lora.ttf',
             'IBM Plex Mono': 'IBMPlexMono-Regular.ttf'}.get(family, 'Manrope.ttf')
-    font = TTFont(FONTS / name)
+    path = FONTS / name
+    if family == 'Arial':
+        system_font = Path('/System/Library/Fonts/Supplemental') / ('Arial Bold.ttf' if weight >= 600 else 'Arial.ttf')
+        if system_font.is_file():
+            path = system_font
+    font = TTFont(path)
     location = {'wght': weight} if 'fvar' in font else None
     return font, font.getGlyphSet(location=location), font.getBestCmap()
 
@@ -32,7 +40,7 @@ def outline_svg(svg):
             label = ''.join(element.itertext())
             family = element.get('font-family', 'Manrope').split(',')[0].strip(" '\"")
             weight = float(element.get('font-weight', '400'))
-            font, glyphs, cmap = font_for(family, weight)
+            font, glyphs, cmap = font_for(family, weight, element.get('font-style', 'normal'))
             size = float(element.get('font-size', '18'))
             scale = size / font['head'].unitsPerEm
             spacing = float(re.sub(r'px$', '', element.get('letter-spacing', '0'))) / scale

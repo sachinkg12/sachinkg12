@@ -124,15 +124,13 @@ export function renderSvg(data, {mobile = false, seed = 0, preview = false, prev
   const wordMarkup = placed.map(item => `<text x="${item.x + item.width / 2}" y="${item.y + item.height / 2}" text-anchor="middle" dominant-baseline="central" font-size="${item.size}" font-weight="${item.weight >= 7 ? 650 : 450}" fill="${item.color}">${xml(item.word)}</text>`).join('\n');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="cloud-title cloud-desc">
 <title id="cloud-title">${xml(data.prompt)}</title><desc id="cloud-desc">${xml(footer)}. Topics: ${xml(placed.map(w => w.word).join(', '))}.</desc>
-<defs><linearGradient id="cloud-bg" x2="1" y2="1"><stop stop-color="${THEME.base}"/><stop offset="1" stop-color="${THEME.base2}"/></linearGradient><radialGradient id="cloud-glow"><stop stop-color="${THEME.primary}" stop-opacity=".11"/><stop offset="1" stop-color="${THEME.primary}" stop-opacity="0"/></radialGradient><pattern id="cloud-dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="${THEME.light}" opacity=".09"/></pattern></defs>
-<rect x="1" y="1" width="${width-2}" height="${height-2}" rx="18" fill="url(#cloud-bg)" stroke="${THEME.primary}"/><rect width="${width}" height="${height}" rx="18" fill="url(#cloud-dots)"/><ellipse cx="${width/2}" cy="${height/2}" rx="${width/2}" ry="${height/2}" fill="url(#cloud-glow)"/>
-<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
-<text x="${margin}" y="38" fill="${THEME.light}" font-family="ui-monospace,Consolas,monospace" font-size="${mobile ? 12 : 13}" letter-spacing="1.8">COMMUNITY / WORD CLOUD</text>
-<text x="${margin}" y="84" fill="#f1f5f9" font-size="${mobile ? 31 : 34}" font-weight="600" letter-spacing="-.7">${xml(data.prompt)}</text>
-<text x="${margin}" y="116" fill="${THEME.light}" font-size="${mobile ? 16 : 18}">A topic, a curiosity, or a shared interest.</text>
+<rect x="1" y="1" width="${width-2}" height="${height-2}" rx="22" fill="${THEME.cloud_background || THEME.base}" stroke="${THEME.border}"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="${margin}" y="38" fill="${THEME.cloud_subtle || THEME.light}" font-family="ui-monospace,Consolas,monospace" font-size="${mobile ? 12 : 13}" letter-spacing="1.8">COMMUNITY / WORD CLOUD</text>
+<text x="${margin}" y="84" fill="${THEME.ink}" font-size="${mobile ? 31 : 34}" font-weight="600" letter-spacing="-.7">${xml(data.prompt)}</text>
+<text x="${margin}" y="116" fill="${THEME.cloud_subtle || THEME.light}" font-size="${mobile ? 16 : 18}">A topic, a curiosity, or a shared interest.</text>
 ${wordMarkup}
-<path d="M${margin} ${height-54}H${width-margin}" stroke="${THEME.primary}"/>
-<text x="${margin}" y="${height-24}" fill="${THEME.light}" font-family="ui-monospace,Consolas,monospace" font-size="${mobile ? 11 : 12}" letter-spacing=".6">${xml(footer)}</text>
-${mobile ? '' : `<text x="${width-margin}" y="${height-24}" fill="${THEME.highlight}" font-size="13" text-anchor="end">Your word belongs here ↗</text>`}
+<text x="${margin}" y="${height-24}" fill="${THEME.cloud_subtle || THEME.light}" font-family="ui-monospace,Consolas,monospace" font-size="${mobile ? 11 : 12}" letter-spacing=".6">${xml(footer)}</text>
+${mobile ? '' : `<text x="${width-margin}" y="${height-24}" fill="${THEME.highlight}" font-size="13" text-anchor="end">Your word belongs here</text>`}
 </g></svg>\n`;
 }

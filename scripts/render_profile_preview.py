@@ -45,8 +45,15 @@ while i < len(lines):
     if not line.strip():
         i += 1
         continue
-    if line.startswith(('<picture>', '<p ', '<p>')):
-        close_tag = '</picture>' if line.startswith('<picture>') else '</p>'
+    if line.startswith('<!--') and line.endswith('-->'):
+        i += 1
+        continue
+    if line.startswith('<a name=') and line.endswith('</a>'):
+        blocks.append(line)
+        i += 1
+        continue
+    if line.startswith(('<picture>', '<p ', '<p>', '<h3 ')):
+        close_tag = '</picture>' if line.startswith('<picture>') else '</h3>' if line.startswith('<h3 ') else '</p>'
         raw = [line]
         i += 1
         while close_tag not in raw[-1] and i < len(lines):
@@ -94,7 +101,7 @@ while i < len(lines):
 content = '\n'.join(blocks)
 demo = '''<section class="cloud-demo" data-cloud-demo aria-label="Try the word cloud locally">
 <div class="cloud-demo-heading"><strong>Try the cloud</strong><span>LOCAL PREVIEW</span></div>
-<form><label for="cloud-word">Add a topic or shared interest</label><div class="cloud-form-row"><input id="cloud-word" name="word" maxlength="60" placeholder="e.g. AI Agents, Photography" autocomplete="off" required/><button type="submit">Add my word <span aria-hidden="true">↗</span></button></div></form>
+<form><label for="cloud-word">Add a topic or shared interest</label><div class="cloud-form-row"><input id="cloud-word" name="word" maxlength="60" placeholder="e.g. AI Agents, Photography" autocomplete="off" required/><button type="submit">Add my word</button></div></form>
 <div class="cloud-demo-actions"><button type="button" data-shuffle-cloud>Shuffle arrangement</button><button type="button" data-reset-cloud>Reset demo</button></div>
 <p role="status" aria-live="polite">Try adding a word. Preview changes stay in this browser.</p>
 </section>'''
@@ -119,12 +126,32 @@ for old, new in {
     '#fde047':theme['highlight'],
 }.items():
     css = css.replace(old, new)
+css += '''
+.markdown-body p>a>picture,.markdown-body p>a>picture>img{display:block;width:100%;height:auto}.cloud-demo{background:#f7f7f5;border-color:#e5e5e5;border-radius:18px}.cloud-form-row button{background:#202020;border-radius:24px}.cloud-form-row input{border-color:#d9d9d9}.cloud-demo-heading>span,.cloud-demo-actions button,.font-link{color:#626262}.cloud-demo p[role="status"]{color:#626262}.dark-preview .cloud-demo{background:#202020;border-color:#444}.dark-preview .cloud-demo-heading>span,.dark-preview .cloud-demo-actions button,.dark-preview .cloud-demo p[role="status"]{color:#ddd}.dark-preview .cloud-form-row input{background:#161b22;color:#fff;border-color:#555}.dark-preview .cloud-form-row button{background:#f3ce65;color:#202020}.dark-preview .font-link{color:#ddd}.dark-preview .draft-tag{background:#202020;border-color:#555;color:#eee}
+'''
+css += '''
+@font-face{font-family:"IBM Plex Sans";src:url("./assets/profile/fonts/IBMPlexSans.ttf") format("truetype");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:Lora;src:url("./assets/profile/fonts/Lora.ttf") format("truetype");font-weight:400 700;font-style:normal;font-display:swap}
+@font-face{font-family:Lora;src:url("./assets/profile/fonts/Lora-Italic.ttf") format("truetype");font-weight:400 700;font-style:italic;font-display:swap}
+.markdown-body{font-family:"IBM Plex Sans",Arial,sans-serif;font-size:17px;line-height:1.6}
+.cloud-demo input,.cloud-demo button{font-family:inherit}
+.markdown-body h1,.markdown-body h2{border:0;padding-bottom:0}
+.markdown-body h3:not(.section-heading){font-family:Arial,Helvetica,sans-serif;font-size:24px;letter-spacing:-.035em;line-height:1.2;margin-top:32px}
+.markdown-body .section-heading{border:0;padding:0;margin:44px 0 20px;line-height:0;font-size:0}
+.markdown-body .section-heading picture,.markdown-body .section-heading img{display:block;width:100%;max-width:100%;height:auto}
+.markdown-body>a[name]{display:block;height:0;overflow:hidden}
+.markdown-body hr{display:none}
+.github-fonts .markdown-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px}
+.github-fonts .markdown-body h3:not(.section-heading){font-family:inherit;font-size:20px;letter-spacing:-.25px}
+.preview-controls{flex-wrap:wrap}
+@media(max-width:650px){.markdown-body .section-heading{margin:34px 0 18px}.preview-controls{gap:5px}.markdown-body h3:not(.section-heading){font-size:22px}}
+'''
 page = f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sachin Gupta — GitHub profile preview</title><style>{css}</style></head>
 <body><div class="preview-root min-h-screen bg-[#f6f8fa] text-[#1f2328]"><div class="preview-shell mx-auto max-w-[1012px]">
-<div class="preview-label flex items-center justify-between"><span>sachinkg12 / profile</span><span class="preview-controls"><a class="font-link" href="./font-options.html">Fonts</a><a class="font-link" href="./palette-options.html">Colors</a><button class="theme-toggle" type="button" onclick="document.body.classList.toggle('dark-preview');this.textContent=document.body.classList.contains('dark-preview')?'Light preview':'Dark preview'">Dark preview</button><span class="draft-tag rounded-full">LOCAL PREVIEW</span></span></div>
+<div class="preview-label flex items-center justify-between"><span>sachinkg12 / profile</span><span class="preview-controls"><a class="font-link" href="https://sachinkg12.github.io/" target="_blank" rel="noopener">Reference</a><button class="theme-toggle font-toggle" type="button" aria-pressed="false" title="Compare GitHub’s paragraph font; heading artwork stays the same." onclick="document.body.classList.toggle('github-fonts');this.textContent=document.body.classList.contains('github-fonts')?'Website fonts':'GitHub fonts';this.setAttribute('aria-pressed',document.body.classList.contains('github-fonts'))">GitHub fonts</button><button class="theme-toggle" type="button" onclick="document.body.classList.toggle('dark-preview');this.textContent=document.body.classList.contains('dark-preview')?'Light preview':'Dark preview'">Dark preview</button><span class="draft-tag rounded-full">LOCAL PREVIEW</span></span></div>
 <main class="readme-panel overflow-hidden rounded-xl border border-[#d1d9e0] bg-white"><div class="file-header flex items-center gap-2"><span class="file-dot"></span>README.md</div><article class="markdown-body">{content}</article></main>
-<div class="preview-footer">GitHub README preview · Native text, tables and SVG assets</div>
+<div class="preview-footer">Font comparison preview · GitHub controls paragraph fonts in profile READMEs</div>
 </div></div><script type="module" src="./assets/profile/wordcloud-preview.mjs"></script></body></html>'''
 def version_asset(match):
     attribute, path = match.groups()
@@ -139,12 +166,12 @@ page = re.sub(r'(src|srcset)="(\./assets/profile/[^\"]+)"', version_asset, page)
 shutil.copytree(source.parent / 'assets/profile', root / 'assets/profile', dirs_exist_ok=True)
 font_cards = []
 for slug, name, note in [
-    ('space-grotesk', 'Space Grotesk', 'Recommended · distinct, technical, and restrained. Currently applied to the banner and display text.'),
-    ('manrope', 'Manrope', 'Softer and more understated. Currently used for supporting text in the visual cards.'),
+    ('space-grotesk', 'Space Grotesk', 'Earlier banner type, retained for comparison with the previous design.'),
+    ('manrope', 'Manrope', 'Earlier supporting type, retained for comparison with the previous design.'),
     ('sora', 'Sora', 'A wider, more geometric alternative with a stronger visual presence.'),
 ]:
-    font_cards.append(f'''<section class="option"><div class="option-heading"><h2>{name}</h2><span>{'APPLIED' if slug == 'space-grotesk' else 'ALTERNATIVE'}</span></div><p>{note}</p><picture><source media="(max-width:600px)" srcset="./assets/profile/font-options/{slug}-mobile.svg"/><img src="./assets/profile/font-options/{slug}.svg" alt="Sachin Gupta banner in {name}" width="1200" height="274"/></picture></section>''')
-font_page = '''<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sachin Gupta — font comparison</title><style>*{box-sizing:border-box}body{margin:0;background:#f4f7fa;color:#172033;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}.shell{max-width:1040px;margin:0 auto;padding:30px 22px 44px}a{color:#0f766e;text-decoration:none}h1{font-size:28px;letter-spacing:-.7px;margin:18px 0 8px}.intro{max-width:760px;color:#536278;margin:0 0 22px}.option{background:#fff;border:1px solid #d8e0e8;border-radius:14px;margin:0 0 20px;padding:20px}.option-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.option h2{font-size:20px;margin:0}.option-heading span{font:10px ui-monospace,Consolas,monospace;letter-spacing:1.3px;color:#0f766e}.option p{font-size:14px;color:#536278;margin:8px 0 16px}.option picture,.option img{display:block;width:100%;height:auto}.note{font-size:13px;color:#536278}@media(max-width:600px){.shell{padding:20px 12px}.option{padding:16px}h1{font-size:25px}.option p{font-size:13px}}</style></head><body><main class="shell"><a href="./index.html">← Back to the profile preview</a><h1>Three fonts. The same profile.</h1><p class="intro">The portrait, colors, content, and layout stay the same so you can compare the typography. My choice is Space Grotesk for display text, Manrope for supporting text, and IBM Plex Mono for small technical labels.</p>'''+''.join(font_cards)+'''<p class="note">These are the actual SVG assets, with the fonts converted to vector outlines. GitHub's normal README text retains GitHub's font. This comparison is a local preview.</p></main></body></html>'''
+    font_cards.append(f'''<section class="option"><div class="option-heading"><h2>{name}</h2><span>{'EARLIER STUDY'}</span></div><p>{note}</p><picture><source media="(max-width:600px)" srcset="./assets/profile/font-options/{slug}-mobile.svg"/><img src="./assets/profile/font-options/{slug}.svg" alt="Sachin Gupta banner in {name}" width="1200" height="274"/></picture></section>''')
+font_page = '''<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sachin Gupta — font comparison</title><style>*{box-sizing:border-box}body{margin:0;background:#f4f7fa;color:#172033;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}.shell{max-width:1040px;margin:0 auto;padding:30px 22px 44px}a{color:#0f766e;text-decoration:none}h1{font-size:28px;letter-spacing:-.7px;margin:18px 0 8px}.intro{max-width:760px;color:#536278;margin:0 0 22px}.option{background:#fff;border:1px solid #d8e0e8;border-radius:14px;margin:0 0 20px;padding:20px}.option-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.option h2{font-size:20px;margin:0}.option-heading span{font:10px ui-monospace,Consolas,monospace;letter-spacing:1.3px;color:#0f766e}.option p{font-size:14px;color:#536278;margin:8px 0 16px}.option picture,.option img{display:block;width:100%;height:auto}.note{font-size:13px;color:#536278}@media(max-width:600px){.shell{padding:20px 12px}.option{padding:16px}h1{font-size:25px}.option p{font-size:13px}}</style></head><body><main class="shell"><a href="./index.html">← Back to the profile preview</a><h1>Earlier typography studies.</h1><p class="intro">These studies show the previous profile design. The current website-style profile uses IBM Plex Sans, Lora italic accents, and IBM Plex Mono labels.</p>'''+''.join(font_cards)+'''<p class="note">These are the actual SVG assets, with the fonts converted to vector outlines. GitHub's normal README text retains GitHub's font. This comparison is a local preview.</p></main></body></html>'''
 (root / 'font-options.html').write_text(re.sub(r'(src|srcset)="(\./assets/profile/[^\"]+)"', version_asset, font_page))
 print(f'Wrote preview: {root}/index.html')
 print(f'{len(text.split())} words; {link_number} descriptive links; {len(lines)} lines')

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "HeapLens",
+    "code_url": "https://github.com/sachinkg12/heaplens",
+    "category": "JVM diagnostics",
+    "description": "Java and Android heap analysis across VS Code, IntelliJ IDEA, and the terminal/browser, backed by a native Rust engine."
+  },
+  {
+    "name": "ToolContractGate",
+    "code_url": "https://github.com/sachinkg12/toolcontractgate",
+    "category": "Agent tool governance",
+    "description": "A deterministic gate that checks AI tool calls against approved, versioned contracts."
+  },
+  {
+    "name": "SlideSherlock",
+    "code_url": "https://github.com/sachinkg12/SlideSherlock",
+    "category": "Evidence-based media",
+    "description": "A pipeline for turning slides into narrated video with source evidence and provenance."
+  },
+  {
+    "name": "AgentTrustCI",
+    "code_url": "https://github.com/sachinkg12/agenttrustci",
+    "category": "Agent regression testing",
+    "description": "Experimental JUnit checks for agent policy, answer grounding, and tool-use sequences."
+  },
+  {
+    "name": "RouteGuard",
+    "code_url": "https://github.com/sachinkg12/RouteGuard",
+    "category": "Selective classification",
+    "description": "A reproducible framework for evaluating classification, abstention, and asymmetric error costs."
+  }
+]

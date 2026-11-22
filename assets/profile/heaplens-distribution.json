@@ -1,13 +1,20 @@
 {
-  "as_of": "2026-11-06",
-  "vscode_downloads": 12367,
-  "vscode_installs": 2215,
-  "openvsx_downloads": 12966,
-  "jetbrains_downloads": 37,
+  "as_of": "2026-11-21",
+  "vscode_downloads": 13440,
+  "vscode_installs": 2317,
+  "openvsx_downloads": 13811,
+  "jetbrains_downloads": 53,
   "sources": {
     "vscode": "https://marketplace.visualstudio.com/items?itemName=guptasachinn.heaplens",
     "openvsx": "https://open-vsx.org/extension/guptasachinn/heaplens",
     "jetbrains": "https://plugins.jetbrains.com/plugin/35004-heaplens"
   },
-  "total_downloads": 25370
+  "vscode_acquisitions": 15832,
+  "vscode_acquisitions_as_of": "2026-11-21",
+  "vscode_acquisitions_source": "Publisher acquisition dashboard, supplied by the profile owner",
+  "api_sources": {
+    "vscode": "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery",
+    "openvsx": "https://open-vsx.org/api/guptasachinn/heaplens",
+    "jetbrains": "https://plugins.jetbrains.com/api/plugins/35004"
+  }
 }

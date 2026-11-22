@@ -1,0 +1,53 @@
+name: Refresh HeapLens marketplace counts
+
+on:
+  schedule:
+    - cron: '15 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/refresh_heaplens_stats.py'
+      - 'scripts/profile_metrics.py'
+      - 'scripts/profile_graphics.py'
+      - 'scripts/profile_headers.py'
+      - 'scripts/profile_typography.py'
+      - 'scripts/profile_theme.py'
+      - 'assets/profile/theme.json'
+      - '.github/workflows/refresh-heaplens.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: heaplens-marketplace-counts
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Install the pinned SVG font dependency
+        run: python -m pip install -r scripts/design-requirements.txt
+      - name: Check count handling
+        run: python -m unittest discover -s scripts -p 'test_heaplens_stats.py'
+      - name: Refresh public marketplace counters and render the profile assets
+        run: python scripts/refresh_heaplens_stats.py
+      - name: Commit only the refreshed count files
+        run: |
+          git add README.md assets/profile/heaplens-distribution.json assets/profile/heaplens-adoption.svg assets/profile/heaplens-adoption-mobile.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh HeapLens marketplace counts'
+          git pull --rebase origin main
+          git push origin HEAD:main

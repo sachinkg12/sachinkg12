@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-21",
   "vscode_downloads": 13440,
-  "vscode_installs": 2317,
-  "openvsx_downloads": 13811,
+  "vscode_installs": 2316,
+  "openvsx_downloads": 13813,
   "jetbrains_downloads": 53,
   "sources": {
     "vscode": "https://marketplace.visualstudio.com/items?itemName=guptasachinn.heaplens",

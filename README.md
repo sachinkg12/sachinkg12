@@ -148,7 +148,7 @@ I build tools around the same questions I encounter in engineering and research:
 </h3>
 
 <p>
-  <a href="https://github.com/sachinkg12/heaplens"><picture><source media="(max-width: 600px)" srcset="./assets/profile/heaplens-adoption-mobile.svg" /><img src="./assets/profile/heaplens-adoption.svg" width="100%" alt="HeapLens — VS Code: 15,832 acquisitions. Open VSX: 13,813 downloads. IntelliJ IDEA: 53 downloads." /></picture></a>
+  <a href="https://github.com/sachinkg12/heaplens"><picture><source media="(max-width: 600px)" srcset="./assets/profile/heaplens-adoption-mobile.svg" /><img src="./assets/profile/heaplens-adoption.svg" width="100%" alt="HeapLens — VS Code: 15,832 acquisitions. Open VSX: 13,828 downloads. IntelliJ IDEA: 54 downloads." /></picture></a>
 </p>
 
 <!-- heaplens-stats:end -->
